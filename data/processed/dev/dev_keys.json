@@ -1,0 +1,6251 @@
+{
+  "TST1-MUC3-0001": [
+    {
+      "message_id": "TST1-MUC3-0001",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLA COLUMN",
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+          "URNG"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "\"SANTO TOMAS\" PRESIDENTIAL FARM",
+          "PRESIDENTIAL FARM"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CEREZO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CIVILIAN"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0001",
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+          "URNG"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FACILITIES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0001",
+      "message_template": 4,
+      "incident_type": "ROBBERY",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+          "URNG"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "\"LA EMINENCIA\" FARM",
+          "FARM"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0001",
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PEASANT"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0001",
+      "message_template": 6,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TANK TRUCK",
+          "TRUCK"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0002": [
+    {
+      "message_id": "TST1-MUC3-0002",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE FARABUNDO MARTI NATIONAL LIBERATION FRONT [FMLN]",
+          "MEMBERS OF THE FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRIC POWER SUBSTATION"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "SOLDIER"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0003": [
+    {
+      "message_id": "TST1-MUC3-0003",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0004": [
+    {
+      "message_id": "TST1-MUC3-0004",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GRENADE ROCKET LAUNCHERS",
+          "GRENADE ROCKET",
+          "GRENADE",
+          "DYNAMITE AND GRENADE ROCKET LAUNCHERS",
+          "DYNAMITE AND GRENADE ROCKET",
+          "DYNAMITE AND GRENADE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "WOMAN"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ANTIOQUIA LIQUEUR PLANT",
+          "LIQUEUR PLANT"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0005": [
+    {
+      "message_id": "TST1-MUC3-0005",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0006": [
+    {
+      "message_id": "TST1-MUC3-0006",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ANTONIO ROLDAN BETANCUR"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "ANTIOQUIA DEPARTMENT GOVERNOR",
+          "ANTIOQUIA GOVERNOR",
+          "DEPARTMENT GOVERNOR",
+          "GOVERNOR"
+        ],
+        "strings_rhs": [
+          "ANTONIO ROLDAN BETANCUR"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0007": [
+    {
+      "message_id": "TST1-MUC3-0007",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0008": [
+    {
+      "message_id": "TST1-MUC3-0008",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0009": [
+    {
+      "message_id": "TST1-MUC3-0009",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0010": [
+    {
+      "message_id": "TST1-MUC3-0010",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0011": [
+    {
+      "message_id": "TST1-MUC3-0011",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CHILEAN GOVERNMENT"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "RONNIE MOFFIT"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "U.S. SECRETARY",
+          "ASSISTANT",
+          "SECRETARY"
+        ],
+        "strings_rhs": [
+          "RONNIE MOFFIT"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0012": [
+    {
+      "message_id": "TST1-MUC3-0012",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0013": [
+    {
+      "message_id": "TST1-MUC3-0013",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0014": [
+    {
+      "message_id": "TST1-MUC3-0014",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0015": [
+    {
+      "message_id": "TST1-MUC3-0015",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0016": [
+    {
+      "message_id": "TST1-MUC3-0016",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMBS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "EVERYONE ELSE IN THE ARMY"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "HOUSES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0017": [
+    {
+      "message_id": "TST1-MUC3-0017",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0018": [
+    {
+      "message_id": "TST1-MUC3-0018",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SOLDIERS"
+        ]
+      },
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "HILDA FLORES"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "GUATEMALAN SOCIAL DEMOCRATIC LEADER",
+          "SOCIAL DEMOCRATIC LEADER"
+        ],
+        "strings_rhs": [
+          "HILDA FLORES"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0019": [
+    {
+      "message_id": "TST1-MUC3-0019",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MILITARY MEN"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0020": [
+    {
+      "message_id": "TST1-MUC3-0020",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0021": [
+    {
+      "message_id": "TST1-MUC3-0021",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0022": [
+    {
+      "message_id": "TST1-MUC3-0022",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DEATH SQUADS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "FATHERS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0023": [
+    {
+      "message_id": "TST1-MUC3-0023",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0024": [
+    {
+      "message_id": "TST1-MUC3-0024",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "500 KG OF DYNAMITE GEL",
+          "DYNAMITE GEL",
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TWO OTHER PERSONS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ETA",
+          "BASQUE FATHERLAND AND LIBERTY"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUILDING THAT HOUSES THE ADMINISTRATIVE DEPARTMENT OF SECURITY",
+          "HEADQUARTERS OF THE COUNTRY'S PRINCIPAL SECURITY ORGANIZATION"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MIGUEL MAZA MARQUEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "VICTIMS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0025": [
+    {
+      "message_id": "TST1-MUC3-0025",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0026": [
+    {
+      "message_id": "TST1-MUC3-0026",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SELF-DEFENSE GROUPS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MOVEMENT OF NATIONAL RESTORATION",
+          "MORENA"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PEASANTS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0027": [
+    {
+      "message_id": "TST1-MUC3-0027",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORIST"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "OFFICES OF THE DEPUTY MAYOR, A CIVILIAN OFFICE OCCUPIED BY THE PROVINCIAL GOVERNOR"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0028": [
+    {
+      "message_id": "TST1-MUC3-0028",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0029": [
+    {
+      "message_id": "TST1-MUC3-0029",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0030": [
+    {
+      "message_id": "TST1-MUC3-0030",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKING BANDS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CARLOS GALAN"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "GREAT COLOMBIAN LEADER",
+          "LEADER"
+        ],
+        "strings_rhs": [
+          "CARLOS GALAN"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0031": [
+    {
+      "message_id": "TST1-MUC3-0031",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0032": [
+    {
+      "message_id": "TST1-MUC3-0032",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0033": [
+    {
+      "message_id": "TST1-MUC3-0033",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0034": [
+    {
+      "message_id": "TST1-MUC3-0034",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0035": [
+    {
+      "message_id": "TST1-MUC3-0035",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN COMMANDO UNITS",
+          "UNITS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRICAL SYSTEM"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0036": [
+    {
+      "message_id": "TST1-MUC3-0036",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "HOMEMADE BOMB",
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SUSPECTS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "SOLDIERS",
+          "GROUP OF NINE U.S. SOLDIERS",
+          "GROUP OF NINE U.S. SOLDIERS STATIONED AT THE PALMEROLA BASE WHO WERE VISITING THE CITY OF LA CEIBA",
+          "SOLDIERS FROM PALMEROLA BASE"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0037": [
+    {
+      "message_id": "TST1-MUC3-0037",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ERIKA SULLIVAN"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MISS"
+        ],
+        "strings_rhs": [
+          "ERIKA SULLIVAN"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0037",
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GRENADE"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PRESIDENT'S HOME",
+          "PRESIDENT ALFREDO CRISTIANI'S MANSION"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CHRISTOPHER ANDERSON"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "26-YEAR-OLD TEACHER AT THE AMERICAN SCHOOL",
+          "TEACHER",
+          "26-YEAR-OLD TEACHER"
+        ],
+        "strings_rhs": [
+          "CHRISTOPHER ANDERSON"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0037",
+      "message_template": 4,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "NADINE ELKASHES"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "DAUGHTER OF THE EGYPTIAN AMBASSADOR"
+        ],
+        "strings_rhs": [
+          "NADINE ELKASHES"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0038": [
+    {
+      "message_id": "TST1-MUC3-0038",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ERNESTINA UMANZOR"
+        ]
+      },
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0039": [
+    {
+      "message_id": "TST1-MUC3-0039",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AK RIFLES",
+          "RIFLES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE POLICE DEPARTMENT",
+          "TWO INDIVIDUALS",
+          "TWO INDIVIDUALS IN A CHEVROLET OPALA AUTOMOBILE"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POLICE DEPARTMENT"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "HIGH SCHOOL STUDENTS",
+          "STUDENTS FROM THE APPLICATIONS SCHOOL",
+          "STUDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0039",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUN"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUARD"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BRAZILIAN EMBASSY"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "DEMONSTRATORS",
+          "STUDENTS FROM THE APPLICATIONS SCHOOL",
+          "HIGH SCHOOL STUDENTS",
+          "STUDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0039",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "STONES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SOME 100 STUDENTS FROM THE APPLICATIONS SCHOOL",
+          "DEMONSTRATORS",
+          "STUDENTS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "GUARD"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0040": [
+    {
+      "message_id": "TST1-MUC3-0040",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "EXPLOSIVES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "\"THE EXTRADITABLES\"",
+          "THE EXTRADITABLES"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AVIANCA AIRLINES PLANE",
+          "PLANE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CREW"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0040",
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUS BOMB",
+          "CAR BOMBS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "\"THE EXTRADITABLES\"",
+          "THE EXTRADITABLES"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ADMINISTRATIVE DEPARTMENT OF SECURITY",
+          "DAS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "WOUNDED"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0041": [
+    {
+      "message_id": "TST1-MUC3-0041",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0042": [
+    {
+      "message_id": "TST1-MUC3-0042",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0043": [
+    {
+      "message_id": "TST1-MUC3-0043",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0044": [
+    {
+      "message_id": "TST1-MUC3-0044",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SOME MEMBERS OF THE INSTITUTION",
+          "SOME ARMED FORCES' MEMBERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUIT PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0045": [
+    {
+      "message_id": "TST1-MUC3-0045",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CAPTAIN ALONSO CHAVEZ GARCIA"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES",
+          "TREASURY POLICE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PERSONS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0046": [
+    {
+      "message_id": "TST1-MUC3-0046",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS",
+          "FMLN GUERRILLAS",
+          "FIGHTERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MAURICIO GUTIERREZ CASTRO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "BODYGUARD",
+          "BODYGUARDS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0046",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS",
+          "FMLN GUERRILLAS",
+          "UNITS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "WOMAN"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0046",
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARENA",
+          "NATIONALIST REPUBLICAN ALLIANCE",
+          "GOVERNMENT"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "EDGAR CHACON"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "IDEOLOGUE OF THE ORLANDO DE SOLA GROUP",
+          "[IDEOLOGUE OF THE ORLANDO DE SOLA GROUP]"
+        ],
+        "strings_rhs": [
+          "EDGAR CHACON"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0047": [
+    {
+      "message_id": "TST1-MUC3-0047",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0048": [
+    {
+      "message_id": "TST1-MUC3-0048",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PERSON"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0049": [
+    {
+      "message_id": "TST1-MUC3-0049",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "BERNARDO JARAMILLO OSSA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PATRIOTIC UNION [UP] PRESIDENTIAL CANDIDATE"
+        ],
+        "strings_rhs": [
+          "BERNARDO JARAMILLO OSSA"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0049",
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE 8TH FRONT"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REVOLUTIONARY ARMED FORCES OF COLOMBIA",
+          "FARC"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POWER PYLON"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0049",
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE 8TH FRONT"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REVOLUTIONARY ARMED FORCES OF COLOMBIA",
+          "FARC"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "STATION WAGON"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0050": [
+    {
+      "message_id": "TST1-MUC3-0050",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEN WEARING MILITARY UNIFORMS",
+          "MEN"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "IGNACIO ELLACURIA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "WOMEN"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0051": [
+    {
+      "message_id": "TST1-MUC3-0051",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0052": [
+    {
+      "message_id": "TST1-MUC3-0052",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0053": [
+    {
+      "message_id": "TST1-MUC3-0053",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ROCKETS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COL VARGAS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "HOUSES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CIVILIANS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0054": [
+    {
+      "message_id": "TST1-MUC3-0054",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0055": [
+    {
+      "message_id": "TST1-MUC3-0055",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0056": [
+    {
+      "message_id": "TST1-MUC3-0056",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "MINORS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0056",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "MINORS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0056",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CENTRAL ELECTORAL COUNCIL"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "SHERATON HOTEL'S SECURITY CORPS",
+          "SECURITY CORPS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0057": [
+    {
+      "message_id": "TST1-MUC3-0057",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0058": [
+    {
+      "message_id": "TST1-MUC3-0058",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0059": [
+    {
+      "message_id": "TST1-MUC3-0059",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JOSE ANTONIO RODRIGUEZ PORTH"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "DR",
+          "MINISTER"
+        ],
+        "strings_rhs": [
+          "JOSE ANTONIO RODRIGUEZ PORTH"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0060": [
+    {
+      "message_id": "TST1-MUC3-0060",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0061": [
+    {
+      "message_id": "TST1-MUC3-0061",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TWO PAID ASSASSINS",
+          "TWO PAID ASSASSINS WHO RECEIVED ORDERS FROM \"EL MEXICANO\""
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEDELLIN CARTEL"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JAIME PARDO LEAL"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "FOUNDER AND FIRST PRESIDENT OF UP"
+        ],
+        "strings_rhs": [
+          "JAIME PARDO LEAL"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0062": [
+    {
+      "message_id": "TST1-MUC3-0062",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE",
+          "DYNAMITE ATTACKS",
+          "SEVERAL DYNAMITE ATTACKS"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION",
+          "ELN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "OIL INSTALLATIONS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0063": [
+    {
+      "message_id": "TST1-MUC3-0063",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0064": [
+    {
+      "message_id": "TST1-MUC3-0064",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0065": [
+    {
+      "message_id": "TST1-MUC3-0065",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "FRANCISCO PUJA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "TECHNICIAN"
+        ],
+        "strings_rhs": [
+          "FRANCISCO PUJA"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0066": [
+    {
+      "message_id": "TST1-MUC3-0066",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0067": [
+    {
+      "message_id": "TST1-MUC3-0067",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0068": [
+    {
+      "message_id": "TST1-MUC3-0068",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIFORMED INDIVIDUALS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0069": [
+    {
+      "message_id": "TST1-MUC3-0069",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "2 OFFICERS",
+          "OFFICERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JOSE IGNACIO ELLACURIA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "FATHER"
+        ],
+        "strings_rhs": [
+          "JOSE IGNACIO ELLACURIA"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0070": [
+    {
+      "message_id": "TST1-MUC3-0070",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0071": [
+    {
+      "message_id": "TST1-MUC3-0071",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MACHINEGUN",
+          "MACHINEGUN FIRE",
+          "TWO BURSTS OF MACHINEGUN FIRE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GROUP OF TERRORISTS",
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ZARATE WILKA ARMED FORCES OF LIBERATION",
+          "FAL"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JEFFREY BRENT BALL"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MORMON MISSIONARIES",
+          "MISSIONARIES OF THE CHRISTIAN CHURCH OF LATTER DAY SAINTS",
+          "MISSIONARIES"
+        ],
+        "strings_rhs": [
+          "JEFFREY BRENT BALL"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0072": [
+    {
+      "message_id": "TST1-MUC3-0072",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORIST"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MAIN POWERLINE",
+          "POWERLINE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0073": [
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "U.S.-CHILEAN CULTURAL INSTITUTE",
+          "CHILEAN-U.S. CULTURAL INSTITUTE",
+          "CULTURAL INSTITUTE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "INCENDIARY BOMBS",
+          "BOMBS",
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MORMON CHURCH",
+          "MORMON TEMPLE",
+          "CHURCH",
+          "TEMPLE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BRANCH OF THE \"CITICORP\" FINANCIAL FIRM",
+          "\"CITICORP\" FINANCIAL COMPANY OFFICES",
+          "FINANCIAL COMPANY OFFICES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 4,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CATHOLIC SCHOOL",
+          "SCHOOL"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 5,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CHILEAN-U.S. CULTURAL INSTITUTES",
+          "CULTURAL INSTITUTES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 6,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CHILEAN-U.S. CULTURAL INSTITUTES",
+          "CULTURAL INSTITUTES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0073",
+      "message_template": 7,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "BOMB ATTACKS"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CHILEAN-U.S. CULTURAL INSTITUTES",
+          "CULTURAL INSTITUTES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0074": [
+    {
+      "message_id": "TST1-MUC3-0074",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MARIELA ESPINOSA ARANGO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "JUDGE"
+        ],
+        "strings_rhs": [
+          "MARIELA ESPINOSA ARANGO"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0075": [
+    {
+      "message_id": "TST1-MUC3-0075",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SUBMACHINE GUN",
+          "SUBMACHINE GUN ROUNDS",
+          "9-MM SUBMACHINE GUN",
+          "9-MM SUBMACHINE GUN ROUNDS",
+          "55 9-MM SUBMACHINE GUN ROUNDS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GROUP OF 10 PAID ASSASSINS",
+          "10 PAID ASSASSINS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ALFONSO DE LIMA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "BODYGUARDS"
+        ],
+        "strings_rhs": [
+          "ALFONSO DE LIMA"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0075",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MARIA ELENA DIAZ PEREZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "THIRD JUDGE OF PUBLIC ORDER",
+          "JUDGE"
+        ],
+        "strings_rhs": [
+          "MARIA ELENA DIAZ PEREZ"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0076": [
+    {
+      "message_id": "TST1-MUC3-0076",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ASSASSINS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "STELA TORRADO DE OTALORA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PERSON DRIVING THE VEHICLE",
+          "DRIVER"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0076",
+      "message_template": 2,
+      "incident_type": "ROBBERY",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CRIMINALS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VEHICLE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0076",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ANGELA PIEDAD DE GUERRERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "ARMY COLONEL CARLOS GUERRERO'S WIFE"
+        ],
+        "strings_rhs": [
+          "ANGELA PIEDAD DE GUERRERO"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0077": [
+    {
+      "message_id": "TST1-MUC3-0077",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0078": [
+    {
+      "message_id": "TST1-MUC3-0078",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0079": [
+    {
+      "message_id": "TST1-MUC3-0079",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0080": [
+    {
+      "message_id": "TST1-MUC3-0080",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THREE HEAVILY ARMED MEN"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "FEDERICO ESTRADA VELEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "LIBERAL SENATOR",
+          "ANTIOQUIA DEPARTMENT LIBERAL PARTY LEADER",
+          "SENATOR",
+          "LIBERAL PARTY LEADER",
+          "PARTY LEADER"
+        ],
+        "strings_rhs": [
+          "FEDERICO ESTRADA VELEZ"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0081": [
+    {
+      "message_id": "TST1-MUC3-0081",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "DINA ECHAVARRIA"
+        ]
+      },
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0082": [
+    {
+      "message_id": "TST1-MUC3-0082",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MINE",
+          "EXPLOSIVE DEVICE"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ROSA FERNANDEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "ROSA FERNANDEZ"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0083": [
+    {
+      "message_id": "TST1-MUC3-0083",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CAPTAIN ALVARO SARAVIA"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONALIST REPUBLICAN ALLIANCE",
+          "ARENA"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "OSCAR ARNULFO ROMERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "ARCHBISHOP",
+          "CLERGYMAN"
+        ],
+        "strings_rhs": [
+          "OSCAR ARNULFO ROMERO"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0083",
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CIVILIANS"
+        ]
+      },
+      "perp_organization_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "BUSINESSMEN"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0084": [
+    {
+      "message_id": "TST1-MUC3-0084",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0085": [
+    {
+      "message_id": "TST1-MUC3-0085",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0086": [
+    {
+      "message_id": "TST1-MUC3-0086",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0087": [
+    {
+      "message_id": "TST1-MUC3-0087",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "GUILLERMO UNGO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "VICE PRESIDENT OF THE SOCIALIST INTERNATIONAL, FORMER PRESIDENTIAL CANDIDATE, AND LEADER OF THE CIVILIAN LEFT IN EL SALVADOR",
+          "VICE PRESIDENT OF THE SOCIALIST INTERNATIONAL",
+          "FORMER PRESIDENTIAL CANDIDATE",
+          "LEADER OF THE CIVILIAN LEFT IN EL SALVADOR"
+        ],
+        "strings_rhs": [
+          "GUILLERMO UNGO"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0087",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEN WEARING MILITARY UNIFORMS",
+          "MEN"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0088": [
+    {
+      "message_id": "TST1-MUC3-0088",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0089": [
+    {
+      "message_id": "TST1-MUC3-0089",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "APPROXIMATELY 20 OR 30 TERRORISTS",
+          "TERRORISTS",
+          "ENEMIES OF THE PEOPLE"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUS",
+          "ROUTE 302 BUS",
+          "ROUTE 302 BUS COVERING THE SAN SALVADOR - USULUTAN AND USULUTAN - SAN SALVADOR ROUTE",
+          "BUS, WITH LICENSE PLATE 76231"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PASSENGERS",
+          "PASSENGERS TRAVELING ON THE BUS TO USULUTAN"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0089",
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CRIMINAL TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VEHICLES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0089",
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS",
+          "REBELS",
+          "UNKNOWN NUMBER OF FMLN TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GAS STATION",
+          "GAS STATION OWNED BY VALENTIN VILLATORO"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "RESIDENTS",
+          "DEFENSELESS RESIDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0089",
+      "message_template": 4,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS",
+          "REBELS",
+          "UNKNOWN NUMBER OF FMLN TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PYLON"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "RESIDENTS",
+          "DEFENSELESS RESIDENTS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0090": [
+    {
+      "message_id": "TST1-MUC3-0090",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN GUERRILLA COMMANDOS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POWER TOWER"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0091": [
+    {
+      "message_id": "TST1-MUC3-0091",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0092": [
+    {
+      "message_id": "TST1-MUC3-0092",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TRANSFORMERS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0093": [
+    {
+      "message_id": "TST1-MUC3-0093",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COLONEL PONCE"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUIT PRIESTS",
+          "JESUIT PRIESTS'",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST1-MUC3-0094": [
+    {
+      "message_id": "TST1-MUC3-0094",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0095": [
+    {
+      "message_id": "TST1-MUC3-0095",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0096": [
+    {
+      "message_id": "TST1-MUC3-0096",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0097": [
+    {
+      "message_id": "TST1-MUC3-0097",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0098": [
+    {
+      "message_id": "TST1-MUC3-0098",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST1-MUC3-0099": [
+    {
+      "message_id": "TST1-MUC3-0099",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CAR-BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "EMBASSIES",
+          "EMBASSIES OF THE PRC"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0099",
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMBS",
+          "TWO BOMBS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VEHICLE",
+          "EMBASSY VEHICLE",
+          "USSR EMBASSY VEHICLE",
+          "USSR EMBASSY VEHICLE THAT WAS PARKED IN FRONT OF THE EMBASSY"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0099",
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUSES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST1-MUC3-0100": [
+    {
+      "message_id": "TST1-MUC3-0100",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "STATE OFFICIALS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0100",
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "OFFICES OF THE LOCAL DEVELOPMENT CORPORATION"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0100",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ORE TRAIN",
+          "TRAIN"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PERSON"
+        ]
+      }
+    },
+    {
+      "message_id": "TST1-MUC3-0100",
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PRIVATE BANK BRANCHES",
+          "BANK BRANCHES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST1-MUC3-0100",
+      "message_template": 6,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHINING PATH"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUGSTORE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0001": [
+    {
+      "message_id": "TST2-MUC4-0001",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0002": [
+    {
+      "message_id": "TST2-MUC4-0002",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COMMUNIST PARTY OF CHILE",
+          "COMMUNIST PARTY",
+          "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+          "FPMR"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "STRUCTURES",
+          "NEARBY STRUCTURES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0003": [
+    {
+      "message_id": "TST2-MUC4-0003",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "WORKERS JUSTICE COMMAND"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE'S REVOLUTIONARY ARMY",
+          "ERP"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN PUBLIC BUS",
+          "PUBLIC BUS",
+          "BUS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0003",
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "RUTH ESPERANZA AGUILAR MARROQUIN"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE'S REVOLUTIONARY ARMY",
+          "ERP"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "STUDENTS",
+          "GROUP OF STUDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0003",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "HAND GRENADES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "RUTH ESPERANA AGUILAR MARROQUIN"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE'S REVOLUTIONARY ARMY",
+          "ERP"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "STUDENTS",
+          "GROUP OF STUDENTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0004": [
+    {
+      "message_id": "TST2-MUC4-0004",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE CHARGE",
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIDENTIFIED PERSON"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ZARATE WILLKA ARMED FORCES OF LIBERATION"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SHOPS",
+          "OTHER SHOPS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0005": [
+    {
+      "message_id": "TST2-MUC4-0005",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0006": [
+    {
+      "message_id": "TST2-MUC4-0006",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0007": [
+    {
+      "message_id": "TST2-MUC4-0007",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "300 KG OF DYNAMITE",
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PABLO ESCOBAR GAVIRIA"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUSINESSES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "POLICEMEN",
+          "MEDELLIN POLICEMEN"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0007",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PABLO ESCOBAR GAVIRIA"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "BERNARDO JARAMILLO OSSA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JOURNALISTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0008": [
+    {
+      "message_id": "TST2-MUC4-0008",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "WOUNDED"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0009": [
+    {
+      "message_id": "TST2-MUC4-0009",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0010": [
+    {
+      "message_id": "TST2-MUC4-0010",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NEWSPAPER"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0011": [
+    {
+      "message_id": "TST2-MUC4-0011",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SIX SOLDIERS",
+          "SOLDIERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES",
+          "SALVADORAN ARMY",
+          "ARMY"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUIT PRIESTS",
+          "JESUITS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0012": [
+    {
+      "message_id": "TST2-MUC4-0012",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JECAR NEGHME"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "SPOKESMAN OF THE MIR",
+          "SPOKESMAN OF THE MIR [MOVEMENT OF THE REVOLUTIONARY LEFT]"
+        ],
+        "strings_rhs": [
+          "JECAR NEGHME"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0013": [
+    {
+      "message_id": "TST2-MUC4-0013",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AUTOMATIC WEAPONS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ATTACKERS",
+          "ATTACKERS, WHO WORE FIELD UNIFORMS OF THE COLOMBIAN MILITARY"
+        ]
+      },
+      "perp_organization_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "COLOMBIAN MILITARY"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VESSEL",
+          "FLAGSHIP",
+          "SMALL ECUADORAN FLAGSHIP",
+          "SMALL ECUADORAN FLAGSHIP WORKING WITH THE IMANCO MINING COMPANY"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JULIO TORRES"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PILOT",
+          "MR."
+        ],
+        "strings_rhs": [
+          "JULIO TORRES"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0013",
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ATTACKERS",
+          "ATTACKERS, WHO WORE FIELD UNIFORMS OF THE COLOMBIAN MILITARY"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COLOMBIAN MILITARY"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "EDWIN RODRIGO TENEDA PARRENO"
+        ]
+      },
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0014": [
+    {
+      "message_id": "TST2-MUC4-0014",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0015": [
+    {
+      "message_id": "TST2-MUC4-0015",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "OVER 55 KG OF DYNAMITE",
+          "55 KG OF DYNAMITE",
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORIST"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEDELLIN CARTEL"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BANCO CAFETERO BRANCHES AND ITS OFFICES",
+          "BANK BRANCH OFFICES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0016": [
+    {
+      "message_id": "TST2-MUC4-0016",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0017": [
+    {
+      "message_id": "TST2-MUC4-0017",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FEDERAL POLICE BUILDING"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0018": [
+    {
+      "message_id": "TST2-MUC4-0018",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ASSASSINS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ROMERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MSGR"
+        ],
+        "strings_rhs": [
+          "ROMERO"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0019": [
+    {
+      "message_id": "TST2-MUC4-0019",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MACHINEGUN"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ROBERTO ARMANDO RIVERA ESCOBAR"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "NATIONAL FIRE DEPARTMENT DIRECTOR",
+          "COLONEL",
+          "NATIONAL FIRE DEPARTMENT DIRECTOR COLONEL"
+        ],
+        "strings_rhs": [
+          "ROBERTO ARMANDO RIVERA ESCOBAR"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0020": [
+    {
+      "message_id": "TST2-MUC4-0020",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MAN WHO CALLED THE CARACOL NETWORK NEWS OFFICE",
+          "MAN"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PLANE",
+          "AVIANCA'S BOEING 727",
+          "AVIANCA'S BOEING 727 THAT EXPLODED IN MIDAIR IN A SPARSELY POPULATED REGION NEAR BOGOTA"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "INFORMERS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0021": [
+    {
+      "message_id": "TST2-MUC4-0021",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRICITY POLES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0021",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRICITY POLES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0021",
+      "message_template": 3,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRICITY POLES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0021",
+      "message_template": 4,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTRICITY POLES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0022": [
+    {
+      "message_id": "TST2-MUC4-0022",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLA GROUPS",
+          "GUERRILLAS",
+          "ARMED REBELS",
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CARLOS PIZARRO"
+        ]
+      },
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0023": [
+    {
+      "message_id": "TST2-MUC4-0023",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ARTURO RIVERA Y DAMAS"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MSGR",
+          "ARCHBISHOP OF SAN SALVADOR",
+          "ARCHBISHOP"
+        ],
+        "strings_rhs": [
+          "ARTURO RIVERA Y DAMAS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0023",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SOLDIERS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS",
+          "JESUIT PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0024": [
+    {
+      "message_id": "TST2-MUC4-0024",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "RESIDENCES OF DEMOCRATIC LEADERS",
+          "RESIDENCES OF DEMOCRATIC LEADERS SUCH AS RUBEN ZAMORA AND ARONETE DIAZ"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0024",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "RELATIVE OF COLONEL LOPEZ HUILA"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0025": [
+    {
+      "message_id": "TST2-MUC4-0025",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIFORMED MEN"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "IGNACIO ELLACURIA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "WOMEN"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0026": [
+    {
+      "message_id": "TST2-MUC4-0026",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "perp_organization_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "POLICE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CARLOS PIZARRO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "POLITICAL LEADER",
+          "FORMER GUERRILLA COMMANDER",
+          "POLITICAL LEADER AND FORMER GUERRILLA COMMANDER",
+          "FORMER LEADER OF THE 19 APRIL MOVEMENT (M-19)",
+          "FORMER LEADER OF THE 19 APRIL MOVEMENT"
+        ],
+        "strings_rhs": [
+          "CARLOS PIZARRO"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0026",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POLICE MEMBERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POLICE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "BERNARDO JARAMILLO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PRESIDENTIAL CANDIDATE"
+        ],
+        "strings_rhs": [
+          "BERNARDO JARAMILLO"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0027": [
+    {
+      "message_id": "TST2-MUC4-0027",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "YOUTHS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0027",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "YOUTHS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0027",
+      "message_template": 3,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "YOUTHS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0028": [
+    {
+      "message_id": "TST2-MUC4-0028",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FOCES",
+          "ARMED FOCES HIGH COMMAND"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CENTRAL AMERICAN UNIVERSITY",
+          "UCA",
+          "CENTRAL AMERICAN UNIVERSITY [UCA]",
+          "NATIONAL UNIVERSITY"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0029": [
+    {
+      "message_id": "TST2-MUC4-0029",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0030": [
+    {
+      "message_id": "TST2-MUC4-0030",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0031": [
+    {
+      "message_id": "TST2-MUC4-0031",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE COUNTERINSURGENCY ARCE BATTALION",
+          "ARCE BATTALION"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AIR FORCE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "UNNAMED ARCE BATTALION OFFICER",
+          "ARCE BATTALION OFFICER",
+          "OFFICER"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0031",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ROCKETS"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "ANIMALS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0032": [
+    {
+      "message_id": "TST2-MUC4-0032",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "THIRD PERSON",
+          "THIRD PERSON LINKED TO THE PAID ASSASSIN WHO KILLED THE UP LEADER"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEDELLIN CARTEL"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "BERNARDO JARAMILLO OSSA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PRESIDENTIAL CANDIDATE OF PATRIOTIC UNION",
+          "PRESIDENTIAL CANDIDATE OF PATRIOTIC UNION, UP",
+          "UP LEADER"
+        ],
+        "strings_rhs": [
+          "BERNARDO JARAMILLO OSSA"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0032",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CALLERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CESAR GAVIRIA TRUJILLO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "POLITICAL FIGURES"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0033": [
+    {
+      "message_id": "TST2-MUC4-0033",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TERRORISTS",
+          "CRIMINALS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "FRANCISCO JOSE GUERRERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "FORMER SUPREME COURT PRESIDENT",
+          "ADVISER TO THE GOVERNMENT COMMISSION FOR SUPPORT TO THE DIALOGUE",
+          "ADVISER TO THE GOVERNMENT COMMISSION FOR SUPPORT TO THE DIALOGUE [COMISION DE APOYO GUBERNAMENTAL DE DIALOGO]"
+        ],
+        "strings_rhs": [
+          "FRANCISCO JOSE GUERRERO"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0034": [
+    {
+      "message_id": "TST2-MUC4-0034",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIVERSITY LEADERS",
+          "STUDENTS LEADERS",
+          "AEU LEADERS",
+          "UNIVERSITY STUDENTS LEADERS",
+          "AEU MEMBERS",
+          "STUDENT LEADERS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0034",
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "UNIVERSITY STUDENTS",
+          "UNIVERSITY LEADERS",
+          "UNIVERSITY STUDENT LEADERS",
+          "STUDENTS LEADERS",
+          "AEU LEADERS",
+          "STUDENT LEADERS",
+          "STUDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0034",
+      "message_template": 4,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "EDUARDO ANTONIO LOPEZ PALENCIA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "STUDENT"
+        ],
+        "strings_rhs": [
+          "EDUARDO ANTONIO LOPEZ PALENCIA"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0035": [
+    {
+      "message_id": "TST2-MUC4-0035",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0036": [
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONAL GUARD"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MARIO FLORES"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "UNIVERSITY STUDENT"
+        ],
+        "strings_rhs": [
+          "MARIO FLORES"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONAL POLICE MEMBERS WHO WERE DRESSED IN CIVILIAN CLOTHES",
+          "NATIONAL POLICE MEMBERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONAL POLICE"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "RAUL RAMIREZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "UNIVERSITY STUDENTS",
+          "UNIVERSITY STUDENT"
+        ],
+        "strings_rhs": [
+          "RAUL RAMIREZ"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 3,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JAIME ESTEVEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MEMBER OF THE BREAD, LAND, WORK, AND FREEDOM MOVEMENT",
+          "MEMBER OF THE BREAD, LAND WORK, AND FREEDOM MOVEMENT [MPTL]"
+        ],
+        "strings_rhs": [
+          "JAIME ESTEVEZ"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "LIEUTENANT PACHECHO"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "6TH INFANTRY BRIGADE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "RAFAEL ROMERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PEASANTS",
+          "PEASANT"
+        ],
+        "strings_rhs": [
+          "RAFAEL ROMERO"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 6,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MURDERER COLONEL CANAS",
+          "COLONEL CANAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MARIA ASUNCION ROMERO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "MINOR"
+        ],
+        "strings_rhs": [
+          "PEDRO GONZALEZ ERAZO"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 7,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COLONAL ORLANDO MONTANO"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "6TH INFANTRY BRIGADE"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "BARTOLO RODRIGUEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PEASANTS",
+          "PEASANT"
+        ],
+        "strings_rhs": [
+          "BARTOLO RODRIGUEZ"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 8,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COLONAL ORLANDO MONTANO"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "6TH INFANTRY BRIGADE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PEASANTS",
+          "PEASANT"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 9,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MILITARY DETACHMENT NO 4 TROOPS",
+          "TROOPS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MILITARY DETACHMENT NO 4"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "VIRGILIO ORTIZ"
+        ]
+      },
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0036",
+      "message_template": 10,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ATONAL BATTALION TROOPS",
+          "TROOPS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ATONAL BATTALION"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ROBERTO MENA"
+        ]
+      },
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0037": [
+    {
+      "message_id": "TST2-MUC4-0037",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0038": [
+    {
+      "message_id": "TST2-MUC4-0038",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0039": [
+    {
+      "message_id": "TST2-MUC4-0039",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NELSON MANDELA CELL OF THE ELN",
+          "NELSON MANDELA CELL"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION",
+          "ELN"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JAMES ARTHUR DONNELLY"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "DIRECTOR OF THE COLUMBUS SCHOOL",
+          "DIRECTOR"
+        ],
+        "strings_rhs": [
+          "DAVID LECKY"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0039",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NELSON MANDELA CELL OF THE ELN",
+          "NELSON MANDELA CELL"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION",
+          "ELN"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JAMES ARTHUR DONNELLY"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "PROFESSOR OF THE COLUMBUS SCHOOL IN MEDELLIN",
+          "PROFESSOR OF THE COLUMBUS SCHOOL",
+          "PROFESSOR"
+        ],
+        "strings_rhs": [
+          "LESLIE KENT"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0040": [
+    {
+      "message_id": "TST2-MUC4-0040",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "THE EXTRADITABLES",
+          "EXTRADITABLES"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "PATRICIA ECHAVARRIA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "OTHER PEOPLE",
+          "OTHER PEOPLE WHO ARE BEING HELD HOSTAGE",
+          "PEOPLE",
+          "PEOPLE WHO ARE BEING HELD HOSTAGE"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0041": [
+    {
+      "message_id": "TST2-MUC4-0041",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0042": [
+    {
+      "message_id": "TST2-MUC4-0042",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SPECIAL GROUPS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONAL POLICE",
+          "COLOMBIAN POLICE",
+          "POLICE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "GONZALO RODRIGUEZ GACHA"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "ESCORTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0043": [
+    {
+      "message_id": "TST2-MUC4-0043",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0044": [
+    {
+      "message_id": "TST2-MUC4-0044",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VERY POWERFUL EXPLOSIVES",
+          "EXPLOSIVES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKING GANGS",
+          "COLOMBIAN DRUG TRAFFICKING GANGS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION ARMY",
+          "NATIONAL LIBERATION ARMY"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NATIONAL GUARD JEEP",
+          "JEEP",
+          "MILITARY VEHICLE",
+          "VEHICLE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "SOLDIERS",
+          "GUARDS",
+          "NATIONAL GUARD PATROL"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0045": [
+    {
+      "message_id": "TST2-MUC4-0045",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0046": [
+    {
+      "message_id": "TST2-MUC4-0046",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORIST"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AIRPLANE",
+          "HK-1803 AIRPLANE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PASSENGERS",
+          "PASSENGERS GOING TO CALI, VALLE DEL CAUCA DEPARTMENT",
+          "PASSANGERS",
+          "PASSANGERS GOING TO CALI, VALLE DEL CAUCA DEPARTMENT"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0047": [
+    {
+      "message_id": "TST2-MUC4-0047",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0048": [
+    {
+      "message_id": "TST2-MUC4-0048",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN GUERRILLAS",
+          "URBAN TERRORISTS",
+          "FMLN URBAN COMMANDOS",
+          "URBAN COMMANDOS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VEHICLE",
+          "CAR",
+          "ATTORNEY GENERAL'S CAR",
+          "ARMORED VEHICLE"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "ROBERTO GARCIA ALVARADO"
+        ]
+      },
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "BODYGUARDS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0048",
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "EXPLOSIVES"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MERINO'S HOME"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "15-YEAR-OLD NIECE OF MERINO'S",
+          "15-YEAR-OLD NIECE"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0049": [
+    {
+      "message_id": "TST2-MUC4-0049",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CAR BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "\"BARBONES\" BARRACKS",
+          "BARRACKS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CHILD"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0050": [
+    {
+      "message_id": "TST2-MUC4-0050",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JORGE ADOLFO VARGAS GONZALEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "SECOND SECRETARY OF THE NICARAGUAN EMBASSY IN GUATEMALA"
+        ],
+        "strings_rhs": [
+          "JORGE ADOLFO VARGAS GONZALEZ"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0051": [
+    {
+      "message_id": "TST2-MUC4-0051",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "LUIS CARLOS GALAN SARMIENTO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "SENATOR"
+        ],
+        "strings_rhs": [
+          "LUIS CARLOS GALAN SARMIENTO"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0052": [
+    {
+      "message_id": "TST2-MUC4-0052",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0053": [
+    {
+      "message_id": "TST2-MUC4-0053",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIDENTIFIED ASSAILANTS"
+        ]
+      },
+      "perp_organization_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "NORBERTO RODRIGUEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "VENEZUELAN PRESIDENT CARLOS ANDRES PEREZ' BROTHER-IN-LAW",
+          "BROTHER OF VENEZUELA'S FIRST LADY BLANCA RODRIGUEZ DE PEREZ"
+        ],
+        "strings_rhs": [
+          "NORBERTO RODRIGUEZ"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0054": [
+    {
+      "message_id": "TST2-MUC4-0054",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES ELEMENTS",
+          "MEMBERS OF THE ARMED FORCES"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "UCA PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0055": [
+    {
+      "message_id": "TST2-MUC4-0055",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP TUPAC AMARU REVOLUTIONARY MOVEMENT (MRTA)",
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP",
+          "COMMANDO",
+          "MRTA ACTIVISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "HECTOR DELGADO PARKER"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "BODYGUARD",
+          "DELGADO'S BODYGUARD"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0055",
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP TUPAC AMARU REVOLUTIONARY MOVEMENT (MRTA)",
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "COMMANDO OF THE PRO-CHE GUEVARA GROUP",
+          "COMMANDO",
+          "MRTA ACTIVISTS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "HECTOR DELGADO PARKER"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "LOCAL TELEVISION IMPRESARIO",
+          "FORMER ADVISER TO PERUVIAN PRESIDENT ALAN GARCIA",
+          "TELEVISION IMPRESARIO"
+        ],
+        "strings_rhs": [
+          "HECTOR DELGADO PARKER"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0056": [
+    {
+      "message_id": "TST2-MUC4-0056",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUARDS",
+          "ARMED FORCES MEMBERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CBS REPORTER"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0057": [
+    {
+      "message_id": "TST2-MUC4-0057",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TREASURY POLICE"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES HIGH COMMAND",
+          "ARMED FORCES",
+          "TREASURY POLICE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUIT PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0058": [
+    {
+      "message_id": "TST2-MUC4-0058",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0059": [
+    {
+      "message_id": "TST2-MUC4-0059",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DYNAMITE"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKERS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BANK",
+          "BANK IN ANOTHER PART OF CARTAGENA"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PASSERBY"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0059",
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKERS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NEIGHBORING RESIDENCES",
+          "RESIDENCES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "GUARD",
+          "GUARD AT THE COMPANY"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0060": [
+    {
+      "message_id": "TST2-MUC4-0060",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0061": [
+    {
+      "message_id": "TST2-MUC4-0061",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED INDIVIDUALS",
+          "INDIVIDUALS",
+          "INDIVIDUALS IN A BLUE RENAULT 12"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "NEWSPAPER EL SIGLO'S FACILITIES"
+        ]
+      },
+      "hum_tgt_name": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "HIPOLITO HINCAPIE"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "EMPLOYEES"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0062": [
+    {
+      "message_id": "TST2-MUC4-0062",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0063": [
+    {
+      "message_id": "TST2-MUC4-0063",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "URBAN GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POWER SUBSTATION",
+          "LEMPA RIVER HYDROELECTRIC EXECUTIVE COMMISSION (CEL) SUBSTATION"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS OF THE NATIONAL POLICE",
+          "NATIONAL POLICE",
+          "GUARDS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0063",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNION HEADQUARTERS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "UNION LEADERS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0064": [
+    {
+      "message_id": "TST2-MUC4-0064",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "DRUG TRAFFICKERS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "MIGUEL JOSE"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "FAMILY",
+          "HER FAMILY"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0065": [
+    {
+      "message_id": "TST2-MUC4-0065",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0066": [
+    {
+      "message_id": "TST2-MUC4-0066",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0067": [
+    {
+      "message_id": "TST2-MUC4-0067",
+      "message_template": 1,
+      "incident_type": "FORCED WORK STOPPAGE",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SALVADORAN REBELS",
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "GAS STATION"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "GAS STATION OWNERS",
+          "OWNERS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0067",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SALVADORAN REBELS",
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "POWER LINES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0067",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "SALVADORAN REBELS",
+          "REBELS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "ELECTION OFFICIALS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0068": [
+    {
+      "message_id": "TST2-MUC4-0068",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUATEMALAN ARMY TROOPS",
+          "SOLDIERS",
+          "NORTHEASTERN COBAN BASE TROOPS",
+          "ARMY TROOPS",
+          "TROOPS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUATEMALAN ARMY",
+          "ARMY"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "17-YEAR-OLD"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0069": [
+    {
+      "message_id": "TST2-MUC4-0069",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BANK"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0069",
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB",
+          "MEDIUM-SIZED BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TWO MEN",
+          "MEN"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FAST-FOOD RESTAURANT",
+          "PRESTO INSTALLATIONS",
+          "RESTAURANT"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "POLICEMAN"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0070": [
+    {
+      "message_id": "TST2-MUC4-0070",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MEMBERS AND SYMPATHIZERS OF THE MSGR OSCAR ARNULFO ROMERO FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES (FECMAFAM) OF POLITICAL PRISONERS AND MURDERED AND MISSING PEOPLE"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES",
+          "FECMAFAM",
+          "MSGR OSCAR ARNULFO ROMERO FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES (FECMAFAM) OF POLITICAL PRISONERS AND MURDERED AND MISSING PEOPLE"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUS FERNANDEZ"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "TELEVISION JOURNALISTS",
+          "JOURNALISTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0071": [
+    {
+      "message_id": "TST2-MUC4-0071",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUIT PRIESTS",
+          "PRIESTS",
+          "JESUITS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0072": [
+    {
+      "message_id": "TST2-MUC4-0072",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0073": [
+    {
+      "message_id": "TST2-MUC4-0073",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "MILITARY"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS",
+          "JESUIT PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0074": [
+    {
+      "message_id": "TST2-MUC4-0074",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ADVISERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "JESUITS",
+          "JESUIT PRIESTS",
+          "PRIESTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0074",
+      "message_template": 2,
+      "incident_type": "ROBBERY",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ADVISERS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMED FORCES"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "RELIGIOUS CENTERS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0075": [
+    {
+      "message_id": "TST2-MUC4-0075",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CAR BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "OFFICES OF THE SALVADORAN WORKERS NATIONAL UNION FEDERATION (FENASTRAS)",
+          "OFFICES OF THE SALVADORAN WORKERS NATIONAL UNION FEDERATION"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "INJURED",
+          "SEVERAL",
+          "SEVERAL INJURED"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0076": [
+    {
+      "message_id": "TST2-MUC4-0076",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "INCENDIARY BOMB",
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIDENTIFIED PERSONS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "U.S. STATE DEPARTMENT HERCULES C-123 CARGO PLANE",
+          "HERCULES C-123 CARGO PLANE",
+          "CARGO PLANE",
+          "PLANE",
+          "STATE DEPARTMENT HERCULES C-123 CARGO PLANE",
+          "C-123 CARGO PLANE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0077": [
+    {
+      "message_id": "TST2-MUC4-0077",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PEOPLE"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0077",
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+          "MRTA"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CARLOS ENRIQUE FERREYROS"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "colon_clause",
+        "strings_lhs": [
+          "BUSINESSMEN",
+          "\"THE KIND OF THE MACHINERY INDUSTRY\""
+        ],
+        "strings_rhs": [
+          "CARLOS ENRIQUE FERREYROS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0078": [
+    {
+      "message_id": "TST2-MUC4-0078",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN [FARABUNDO MARTI NATIONAL LIBERATION FRONT] FORCES"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FMLN",
+          "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "TRANSFORMERS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0079": [
+    {
+      "message_id": "TST2-MUC4-0079",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0080": [
+    {
+      "message_id": "TST2-MUC4-0080",
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "PRESIDENCIAL RESIDENCE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0080",
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "VEHICLES",
+          "VEHICLE",
+          "VEHICLES OF THE SALVADORAN RED CROSS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0080",
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AMBULANCE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0081": [
+    {
+      "message_id": "TST2-MUC4-0081",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMBS"
+        ]
+      },
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "UNIDENTIFIED PERSONS"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GOVERNMENT BANK BRANCHES",
+          "BANK BRANCHES"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0082": [
+    {
+      "message_id": "TST2-MUC4-0082",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0083": [
+    {
+      "message_id": "TST2-MUC4-0083",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0084": [
+    {
+      "message_id": "TST2-MUC4-0084",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0085": [
+    {
+      "message_id": "TST2-MUC4-0085",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0086": [
+    {
+      "message_id": "TST2-MUC4-0086",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "PRESIDENTIAL CANDIDATES",
+          "CANDIDATES"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0086",
+      "message_template": 2,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PRESIDENTIAL CANDIDATES",
+          "CANDIDATES"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0087": [
+    {
+      "message_id": "TST2-MUC4-0087",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0088": [
+    {
+      "message_id": "TST2-MUC4-0088",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0089": [
+    {
+      "message_id": "TST2-MUC4-0089",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0090": [
+    {
+      "message_id": "TST2-MUC4-0090",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BOMB"
+        ]
+      },
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "PERSONS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0090",
+      "message_template": 3,
+      "message_template_optional": true,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "FACILITIES",
+          "FACILITIES NEXT TO THE U.S. EMBASSY"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0091": [
+    {
+      "message_id": "TST2-MUC4-0091",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0092": [
+    {
+      "message_id": "TST2-MUC4-0092",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0093": [
+    {
+      "message_id": "TST2-MUC4-0093",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING / ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "AIR FORCE"
+        ]
+      },
+      "phys_tgt_id": null,
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "CIVILIANS"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0094": [
+    {
+      "message_id": "TST2-MUC4-0094",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0095": [
+    {
+      "message_id": "TST2-MUC4-0095",
+      "message_template": 1,
+      "message_template_optional": true,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": {
+        "type": "simple_strings",
+        "strings": [
+          "EXPLOSIVE DEVICES"
+        ]
+      },
+      "perp_individual_id": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "TERRORIST"
+        ]
+      },
+      "perp_organization_id": null,
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "BUILDINGS"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0096": [
+    {
+      "message_id": "TST2-MUC4-0096",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0097": [
+    {
+      "message_id": "TST2-MUC4-0097",
+      "message_template": "*",
+      "incident_type": "*"
+    }
+  ],
+  "TST2-MUC4-0098": [
+    {
+      "message_id": "TST2-MUC4-0098",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GOVERNMENT",
+          "CHRISTIAN DEMOCRATIC GOVERNMENT"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "optional": true,
+        "type": "simple_strings",
+        "strings": [
+          "STUDENT LEADERS",
+          "MEMBERS OF THE AEU EXECUTIVE COORDINATING BOARD",
+          "LEADERS",
+          "AEU LEADERS",
+          "STUDENTS"
+        ]
+      }
+    },
+    {
+      "message_id": "TST2-MUC4-0098",
+      "message_template": 3,
+      "message_template_optional": true,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GOVERNMENT",
+          "CHRISTIAN DEMOCRATIC GOVERNMENT"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "ONE OF THE EXILED",
+          "EXILED"
+        ]
+      }
+    }
+  ],
+  "TST2-MUC4-0099": [
+    {
+      "message_id": "TST2-MUC4-0099",
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "incident_instrument_id": null,
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "GUERRILLAS",
+          "GUERRILLAS PRESUMED TO BE MEMBERS OF THE PRO-CASTRO ARMY OF NATIONAL LIBERATION (ELN)",
+          "GUERRILLAS PRESUMED TO BE MEMBERS OF THE PRO-CASTRO ARMY OF NATIONAL LIBERATION"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION",
+          "ELN"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CANO LIMON-COVENAS OIL PIPELINE",
+          "OIL PIPELINE"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    },
+    {
+      "message_id": "TST2-MUC4-0099",
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "incident_instrument_id": null,
+      "perp_individual_id": null,
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ELN",
+          "ARMY OF NATIONAL LIBERATION"
+        ]
+      },
+      "phys_tgt_id": {
+        "type": "simple_strings",
+        "strings": [
+          "CANO LIMON-COVENAS OIL TERMINAL",
+          "OIL TERMINAL"
+        ]
+      },
+      "hum_tgt_name": null,
+      "hum_tgt_description": null
+    }
+  ],
+  "TST2-MUC4-0100": [
+    {
+      "message_id": "TST2-MUC4-0100",
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "perp_individual_id": {
+        "type": "simple_strings",
+        "strings": [
+          "COLOMBIAN ARMY OF NATIONAL LIBERATION GUERRILLAS",
+          "ARMY OF NATIONAL LIBERATION GUERRILLAS",
+          "GUERRILLAS"
+        ]
+      },
+      "perp_organization_id": {
+        "type": "simple_strings",
+        "strings": [
+          "ARMY OF NATIONAL LIBERATION"
+        ]
+      },
+      "hum_tgt_name": {
+        "type": "simple_strings",
+        "strings": [
+          "CARLOS MARCELO"
+        ]
+      },
+      "hum_tgt_description": {
+        "type": "simple_strings",
+        "strings": [
+          "BRASPETRO [PETROBRAS INTERNATIONAL, INC.] ENGINEERS",
+          "ENGINEERS"
+        ]
+      }
+    }
+  ]
+}
