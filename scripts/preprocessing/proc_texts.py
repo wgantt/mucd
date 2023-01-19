@@ -6,6 +6,7 @@ how outputs are written to JSON files.
 """
 import argparse
 import json
+import os
 import re
 
 if __name__ == "__main__":
@@ -13,55 +14,71 @@ if __name__ == "__main__":
     parser.add_argument("input", help="the raw MUC input file")
     parser.add_argument("output", help="the output JSON file")
     args = parser.parse_args()
-    with open(args.input) as f:
-        data = f.read()
-        matches = list(re.finditer(r"(DEV-\S+) *\(([^\)]*)\)", data))
-        has_source = bool(matches)
-        if not matches:
-            matches = list(re.finditer(r"(TST\d+-\S+)", data))
 
-    doc_infos = []
-
-    for match in matches:
-        docid = match.group(1)
-        d = {"docid": docid, "char_start": match.end(), "char_before": match.start()}
-        if has_source:
-            d["source"] = match.group(2)
-        doc_infos.append(d)
-
-    for i in range(len(doc_infos) - 1):
-        doc_infos[i]["char_end"] = doc_infos[i + 1]["char_before"]
-    doc_infos[-1]["char_end"] = len(data)
+    if os.path.isfile(args.input):
+        texts = [args.input]
+    elif os.path.isdir(args.input):
+        path = os.path.abspath(args.input)
+        texts = [os.path.join(path, f) for f in os.listdir(args.input)]
+    else:
+        raise ValueError("Could not find input file or directory!")
+    assert texts, f"No texts found!"
 
     output = {}
-    for d in doc_infos:
-        raw_text = data[d["char_start"] : d["char_end"]].strip()
+    for text in texts:
+        doc_infos = []
+        with open(text) as f:
+            data = f.read()
+            matches = list(re.finditer(r"(DEV-\S+) *\(([^\)]*)\)", data))
+            has_source = bool(matches)
+            if not matches:
+                matches = list(re.finditer(r"(TST\d+-\S+)", data))
 
-        # issue: there are sometimes recursive (multiple?) datelines.  we only get the first in that case.
+        for match in matches:
+            docid = match.group(1)
+            d = {
+                "docid": docid,
+                "char_start": match.end(),
+                "char_before": match.start(),
+            }
+            if has_source:
+                d["source"] = match.group(2)
+            doc_infos.append(d)
 
-        tag_re = r"\[[^\]]+\]"
-        tags_re = "(?:%s\s+)+" % tag_re
-        full_re = r"^(.*?)--\s+(%s)(.*)" % tags_re
-        m = re.search(full_re, raw_text, re.DOTALL)
-        if not m:
-            print(raw_text[:1000])
-            assert False
+        for i in range(len(doc_infos) - 1):
+            doc_infos[i]["char_end"] = doc_infos[i + 1]["char_before"]
+        doc_infos[-1]["char_end"] = len(data)
 
-        dateline = m.group(1).replace("\n", " ").strip()
-        tags = m.group(2).replace("\n", " ")
-        text = m.group(3)
+        for d in doc_infos:
+            raw_text = data[d["char_start"] : d["char_end"]].strip()
 
-        assert tags.upper() == tags
-        tags = re.findall(tag_re, tags)
-        tags = [x.lstrip("[").rstrip("]").lower() for x in tags]
+            # issue: there are sometimes recursive (multiple?) datelines.  we only get the first in that case.
 
-        d["dateline"] = dateline
-        d["tags"] = tags
+            tag_re = r"\[[^\]]+\]"
+            tags_re = "(?:%s\s+)+" % tag_re
+            full_re = r"^(.*?)--\s+(%s)(.*)" % tags_re
+            m = re.search(full_re, raw_text, re.DOTALL)
+            if not m:
+                print(raw_text[:1000])
+                assert False
 
-        text = text.strip()
-        text = text.replace("[", "(").replace("]", ")")
+            dateline = m.group(1).replace("\n", " ").strip()
+            tags = m.group(2).replace("\n", " ")
+            text = m.group(3)
 
-        d["text"] = text
-        output[d["docid"]] = d
+            assert tags.upper() == tags
+            tags = re.findall(tag_re, tags)
+            tags = [x.lstrip("[").rstrip("]").lower() for x in tags]
+
+            d["dateline"] = dateline
+            d["tags"] = tags
+
+            text = text.strip()
+            text = text.replace("[", "(").replace("]", ")")
+
+            d["text"] = text
+            output[d["docid"]] = d
+
+    # outside loop over texts
     with open(args.output, "w") as f:
         json.dump(output, f, indent=2)
