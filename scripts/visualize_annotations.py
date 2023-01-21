@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 import time
 
 from typing import *
@@ -21,72 +22,94 @@ incident_instrument_id
 OFFSET = max([len(k) for k in SELECTED_KEYS]) + 2
 OFFSET_STR = " " * OFFSET
 
+global outfile
+
+
+def fprint(text: str = ""):
+    print(text, file=outfile)
+
 
 def pretty_print_entities(template: Dict[str, Any], slot: str) -> None:
-    print(f"{slot}:")
+    fprint(f"{slot}:")
     if template.get(slot) is not None:
         for item in template[slot]:
             if item["type"] == "colon_clause":
-                assert len(item["strings_lhs"]) == 1
-                print(
-                    f"{OFFSET_STR + item['strings_lhs'][0]}: {' ,'.join(item['strings_rhs'])}"
+                fprint(
+                    f"{OFFSET_STR + str(item['strings_lhs'][0])}: {' ,'.join(item['strings_rhs'])}"
                 )
             else:
-                print(f"{OFFSET_STR + ', '.join(item['strings'])}")
+                fprint(f"{OFFSET_STR + ', '.join(item['strings'])}")
 
 
 def pretty_print_effect_of_incident(
     template: Dict[str, Any], is_human: bool = True
 ) -> None:
     slot = "hum_tgt_effect_of_incident" if is_human else "phys_tgt_effect_of_incident"
-    print(f"{slot}:")
+    fprint(f"{slot}:")
     if template.get(slot) is not None:
         for item in template[slot]:
-            assert len(item["strings_lhs"]) == 1
-            print(
-                f"{OFFSET_STR + item['strings_lhs'][0]}: {', '.join(item['strings_rhs'])}"
+            fprint(
+                f"{OFFSET_STR + str(item['strings_lhs'][0])}: {', '.join(item['strings_rhs'])}"
             )
 
 
 def pretty_print_date(template: Dict[str, Any]) -> None:
-    assert len(template["incident_date"]) == 1
-    incident_dates = template["incident_date"][0]["strings"]
-    print("incident_date:")
-    print(f"{OFFSET_STR + ', '.join(incident_dates)}")
+    fprint("incident_date:")
+    incident_date = template.get("incident_date")
+    if incident_date is not None:
+        assert len(template["incident_date"]) == 1
+        incident_dates = template["incident_date"][0]["strings"]
+        fprint(f"{OFFSET_STR + ', '.join(incident_dates)}")
 
 
 def pretty_print_location(template: Dict[str, Any]) -> None:
     to_print = []
-    for loc in template["incident_location"]:
-        if loc["type"] == "simple_strings":
-            assert len(loc["strings"]) == 1
-            to_print.append(loc["strings"][0])
-        elif loc["type"] == "colon_clause":
-            assert len(loc["strings_lhs"]) == len(loc["strings_rhs"]) == 1
-            to_print.append(f"{loc['strings_lhs'][0]} ({loc['strings_rhs'][0]})")
-    print(f"incident_location:")
-    for loc in to_print:
-        print(f"{OFFSET_STR + loc}")
+    fprint(f"incident_location:")
+    if template.get("incident_location") is not None:
+        for loc in template["incident_location"]:
+            if loc["type"] == "simple_strings":
+                assert len(loc["strings"]) == 1
+                to_print.append(loc["strings"][0])
+            elif loc["type"] == "colon_clause":
+                assert len(loc["strings_lhs"]) == len(loc["strings_rhs"]) == 1
+                to_print.append(f"{loc['strings_lhs'][0]} ({loc['strings_rhs'][0]})")
+        for loc in to_print:
+            fprint(f"{OFFSET_STR + loc}")
+    else:
+        print(
+            f"WARNING ({template['message_id']}): incident_location was missing from template {template['message_template']}",
+            file=sys.stderr,
+        )
 
 
 def pretty_print_template(template: Dict[str, Any]) -> None:
     for k in NON_LIST_VALUED_KEYS:
         if k in {"message_id", "message_template_optional"}:
             continue
+        if k not in template:
+            print(
+                f"WARNING ({template['message_id']}): slot {k} is missing from template {template['message_template']}",
+                file=sys.stderr,
+            )
+            continue
         value = template[k]
         if isinstance(value, dict):
             value = value["strings"]
-            assert len(value) == 1, f"{template['message_id']}"
+            if not len(value) == 1:
+                print(
+                    f"WARNING ({template['message_id']}): slot {k} in template {template['message_template']} had multiple values: {value}",
+                    file=sys.stderr,
+                )
             value = value[0]
-        print(f"{k}:")
-        print(f"{OFFSET_STR + str(value)}")
+        fprint(f"{k}:")
+        fprint(f"{OFFSET_STR + str(value)}")
     pretty_print_date(template)
     pretty_print_location(template)
     pretty_print_effect_of_incident(template, is_human=True)
     pretty_print_effect_of_incident(template, is_human=False)
     for slot in ENTITY_KEYS:
         pretty_print_entities(template, slot)
-    print("-" * 80)
+    fprint("-" * 80)
 
 
 def get_annotated_documents(all_docs: Dict[str, Any]) -> Dict[str, Any]:
@@ -125,8 +148,20 @@ def view_annotations(
         if not keep_irrelevant:
             docs = {k: v for k, v in docs.items() if k in keys}
     assert len(keys) == len(docs)
-    if viewing_mode == "sequential":
-        ordered_docs = sorted(docs.keys())
+    if template_type is not None:
+        print(
+            f"Visualizing {len(docs)} documents annotated with {template_type} templates..."
+        )
+    elif keep_irrelevant:
+        print(
+            f"Visuauzling {len(docs)} documents, including those without annotated templates..."
+        )
+    else:
+        print(f"Visualizing {len(docs)} documents...")
+    time.sleep(2)
+
+    ordered_docs = sorted(docs.keys())
+    if viewing_mode == "interactive":
         num_docs = len(ordered_docs) - 1
         curr_doc = 0
         while True:
@@ -165,6 +200,18 @@ def view_annotations(
                     time.sleep(1)
                 else:
                     curr_doc = ordered_docs.index(doc_id)
+    else:
+        for doc in ordered_docs:
+            fprint("=============")
+            fprint(docs[doc]["docid"])
+            fprint("=============\n")
+            fprint(f"{docs[doc]['text']}\n")
+            fprint("---------")
+            fprint("Templates")
+            fprint("---------")
+            for template in keys[doc]:
+                fprint()
+                pretty_print_template(template)
 
 
 if __name__ == "__main__":
@@ -180,8 +227,8 @@ if __name__ == "__main__":
         "--viewing-mode",
         required=False,
         type=str,
-        choices=["sequential"],
-        default="sequential",
+        choices=["interactive", "to_file"],
+        default="interactive",
     )
     parser.add_argument(
         "--template-type",
@@ -201,7 +248,13 @@ if __name__ == "__main__":
         action="store_true",
         help="also print documents that do not have any annotated templates",
     )
+    parser.add_argument("--outfile", required=False, type=str, default="stdout")
     args = parser.parse_args()
+    if args.outfile == "stdout":
+        outfile = sys.stdout
+    else:
+        outfile = open(args.outfile, "w")
     view_annotations(
         args.split, args.viewing_mode, args.keep_irrelevant, args.template_type
     )
+    outfile.close()
