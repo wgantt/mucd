@@ -6,7 +6,6 @@ how outputs are written to JSON files.
 """
 import os
 import re
-import sys
 import json
 from codecs import decode
 from collections import defaultdict
@@ -50,20 +49,69 @@ HUM TGT: TOTAL NUMBER
     "\n"
 )
 
+LOCATION_RE = r"([\w ]+)(\(\w+ ?\w*\))*"
+
 ALL_KEYS = set(cleankey(k) for k in ALL_KEYS)
 
-KEY_WHITELIST = """
+NON_LIST_VALUED_KEYS = """
+message_id
+message_template
+message_template_optional
+incident_type
+incident_stage_of_execution
+perp_incident_category
+""".split()
+
+SELECTED_KEYS = """
 perp_individual_id
 perp_organization_id
+perp_incident_category
 phys_tgt_id
 hum_tgt_name
 hum_tgt_description
+hum_tgt_effect_of_incident
+phys_tgt_effect_of_incident
 incident_instrument_id
+incident_location
+incident_date
+incident_stage_of_execution
 """.split()
 
-KEY_WHITELIST = set(KEY_WHITELIST)
 
-assert KEY_WHITELIST <= ALL_KEYS
+SET_FILL_KEYS_ALLOWED_VALUES = {
+    "incident_stage_of_execution": {"ACCOMPLISHED", "ATTEMPTED", "THREATENED"},
+    "perp_incident_category": {
+        "TERRORIST ACT",
+        "STATE-SPONSORED VIOLENCE",
+        "? TERRORIST ACT",
+        "? STATE-SPONSORED VIOLENCE",
+    },
+    "hum_tgt_effect_of_incident": {
+        "DEATH",
+        "NO DEATH",
+        "INJURY",
+        "NO INJURY",
+        "NO INJURY OR DEATH",
+        "REGAINED FREEDOM",
+        "ESCAPED",
+        "RESIGNATION",
+        "NO RESIGNATION",
+        "PROPERTY TAKEN FROM TARGET",
+    },
+    "phys_tgt_effect_of_incident": {
+        "DESTROYED",
+        "SOME DAMAGE",
+        "NO DAMAGE",
+        "MONEY TAKEN FROM TARGET",
+        "PROPERTY TAKEN FROM TARGET",
+        "TARGET TAKEN",
+        None,  # Not sure why this seems to be the only set-fill value that needs a none slot...
+    },
+}
+
+SELECTED_KEYS = set(SELECTED_KEYS)
+
+assert SELECTED_KEYS <= ALL_KEYS
 
 cur_docid = None
 
@@ -98,6 +146,43 @@ def yield_keyvals(chunk):
         yield curkey, valtext
 
 
+def parse_location(location_expr: str):
+    out = []
+    seen = set()
+    for loc1 in location_expr.split(" / "):
+        loc1 = loc1.strip()
+        for loc2 in loc1.split(":"):
+            loc2 = loc2.strip()
+            if loc2[0] == "(" and loc2[-1] == ")":
+                loc2 = loc2[1:-1]
+            for loc3 in loc2.split("-"):
+                loc3 = loc3.strip()
+                if loc3.startswith("? "):
+                    loc3 = loc3[2:]
+                match = re.search(LOCATION_RE, loc3)
+                assert match is not None
+                groups = match.groups()
+                assert len(groups) == 2
+                g0 = groups[0].strip()
+                if groups[1] is None:
+                    if g0 not in seen:
+                        out.append({"type": "simple_strings", "strings": [g0]})
+                        seen.add(g0)
+                else:
+                    assert groups[1][0] == "(" and groups[1][-1] == ")"
+                    g1 = groups[1][1:-1]
+                    if g0 + g1 not in seen:
+                        out.append(
+                            {
+                                "type": "colon_clause",
+                                "strings_lhs": [g0],
+                                "strings_rhs": [g1],
+                            }
+                        )
+                        seen.add(g0 + g1)
+    return out
+
+
 def parse_values(keyvals):
     """
     Takes key,value pairs as input, where the values are unparsed.
@@ -122,7 +207,7 @@ def parse_values(keyvals):
             yield key, clean_docid(value)
             continue
 
-        if key in KEY_WHITELIST:
+        if key in SELECTED_KEYS:
             if value == "*":
                 continue
 
@@ -130,17 +215,31 @@ def parse_values(keyvals):
                 yield key, None
                 continue
 
-            if '"' not in value:
-                warning(
-                    f"apparent data error, missing quotes. adding back in. value was ||| {value}"
-                )
-                value = '"' + value + '"'
+            if key == "incident_location":
+                yield key, parse_location(value)
+                continue
 
-            value = parse_one_value(value)
+            if '"' not in value:
+                if key not in {
+                    "incident_date",
+                    "incident_stage_of_execution",
+                    "perp_incident_category",
+                }:
+                    warning(
+                        f"apparent data error, missing quotes. adding back in. value was ||| {value}"
+                    )
+                    value = '"' + value + '"'
+
+            value = parse_one_value(value, key)
+            if key in SET_FILL_KEYS_ALLOWED_VALUES:
+                strings_key = "strings" if "strings" in value else "strings_lhs"
+                for v in value[strings_key]:
+                    assert v in SET_FILL_KEYS_ALLOWED_VALUES[key], f"{key}: {v}"
+
             yield key, value
 
 
-def parse_one_value(namestr):
+def parse_one_value(namestr, slotname=None):
     """
     Returns a dictionary with 'type' either
         'simple_strings' ==> has a field 'strings'
@@ -168,20 +267,24 @@ def parse_one_value(namestr):
     if ":" in namestr:
         assert len(re.findall(":", namestr)) == 1
         lhs, rhs = re.split(r" *: *", namestr)
-        lhs_value = parse_strings_possibly_with_alternations(lhs)
+        if lhs[0] == "(":
+            lhs = lhs[1:]
+        if lhs[-1] == ")":
+            lhs = lhs[:-1]
         rhs_value = parse_strings_possibly_with_alternations(rhs)
+        lhs_value = parse_strings_possibly_with_alternations(lhs, slotname)
         d.update(
             {"type": "colon_clause", "strings_lhs": lhs_value, "strings_rhs": rhs_value}
         )
         return d
 
     else:
-        strings = parse_strings_possibly_with_alternations(namestr)
+        strings = parse_strings_possibly_with_alternations(namestr, slotname)
         d.update({"type": "simple_strings", "strings": strings})
         return d
 
 
-def parse_strings_possibly_with_alternations(namestr):
+def parse_strings_possibly_with_alternations(namestr, slotname=None):
     namestr = namestr.strip()
     assert ":" not in namestr, namestr
     assert not namestr.startswith("?")
@@ -194,9 +297,23 @@ def parse_strings_possibly_with_alternations(namestr):
             # 21. HUM TGT: NUMBER                 -: "ORLANDO LETELIER"
             strings.append(None)
             continue
-        if not (ss[0] == '"' and ss[-1] == '"'):
-            warning("WTF ||| " + ss)
-        ss = ss[1:-1]
+        if slotname in {
+            "hum_tgt_effect_of_incident",
+            "phys_tgt_effect_of_incident",
+            "incident_stage_of_execution",
+            "perp_incident_category",
+        }:
+            # These slots should not have strings escaped
+            assert ss in SET_FILL_KEYS_ALLOWED_VALUES[slotname], f"{slotname}: {ss}"
+        elif slotname == "incident_date":
+            if ss[0] == "(":
+                ss = ss[1:]
+            if ss[-1] == ")":
+                ss = ss[:-1]
+        else:
+            if not (ss[0] == '"' and ss[-1] == '"'):
+                warning("WTF ||| " + ss)
+            ss = ss[1:-1]
         # ss = ss.decode('string_escape')  # They seem to use C-style backslash escaping
         ss = decode(ss, "unicode-escape")
         ss = ss.strip()
@@ -229,7 +346,16 @@ def fancy_json_print(keyvals):
 
 
 def keyvals_to_dict(keyvals):
-    return {k: v for (k, v) in keyvals}
+    out = defaultdict(list)
+    for (k, v) in keyvals:
+        if v is None or k == "incident_location" or k in NON_LIST_VALUED_KEYS:
+            out[k] = v
+        else:
+            assert isinstance(v, dict), f"{k}: {v}"
+            if out[k] is None:
+                out[k] = []
+            out[k].append(v)
+    return out
 
 
 if __name__ == "__main__":
