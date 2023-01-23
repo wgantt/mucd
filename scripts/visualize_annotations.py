@@ -52,6 +52,17 @@ def pretty_print_effect_of_incident(
                 f"{OFFSET_STR + str(item['strings_lhs'][0])}: {', '.join(item['strings_rhs'])}"
             )
 
+def pretty_print_organization_confidence(
+    template: Dict[str, Any]
+) -> None:
+    fprint(f"perp_organization_confidence:")
+    if template.get("perp_organization_confidence") is not None:
+        for item in template["perp_organization_confidence"]:
+            fprint(
+                f"{OFFSET_STR + str(item['strings_lhs'][0])}: {', '.join(item['strings_rhs'])}"
+            )
+
+
 
 def pretty_print_date(template: Dict[str, Any]) -> None:
     fprint("incident_date:")
@@ -109,6 +120,7 @@ def pretty_print_template(template: Dict[str, Any]) -> None:
     pretty_print_effect_of_incident(template, is_human=False)
     for slot in ENTITY_KEYS:
         pretty_print_entities(template, slot)
+    pretty_print_organization_confidence(template)
     fprint("-" * 80)
 
 
