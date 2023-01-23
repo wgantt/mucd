@@ -65,6 +65,7 @@ perp_incident_category
 SELECTED_KEYS = """
 perp_individual_id
 perp_organization_id
+perp_organization_confidence
 perp_incident_category
 phys_tgt_id
 hum_tgt_name
@@ -85,6 +86,14 @@ SET_FILL_KEYS_ALLOWED_VALUES = {
         "STATE-SPONSORED VIOLENCE",
         "? TERRORIST ACT",
         "? STATE-SPONSORED VIOLENCE",
+    },
+    "perp_organization_confidence": {
+        "REPORTED AS FACT",
+        "ACQUITTED",
+        "CLAIMED OR ADMITTED",
+        "SUSPECTED OR ACCUSED",
+        "SUSPECTED OR ACCUSED BY AUTHORITIES",
+        "POSSIBLE",
     },
     "hum_tgt_effect_of_incident": {
         "DEATH",
@@ -224,6 +233,7 @@ def parse_values(keyvals):
                     "incident_date",
                     "incident_stage_of_execution",
                     "perp_incident_category",
+                    "perp_organization_confidence",
                 }:
                     warning(
                         f"apparent data error, missing quotes. adding back in. value was ||| {value}"
@@ -302,9 +312,13 @@ def parse_strings_possibly_with_alternations(namestr, slotname=None):
             "phys_tgt_effect_of_incident",
             "incident_stage_of_execution",
             "perp_incident_category",
+            "perp_organization_confidence",
         }:
             # These slots should not have strings escaped
-            assert ss in SET_FILL_KEYS_ALLOWED_VALUES[slotname], f"{slotname}: {ss}"
+            try:
+                assert ss in SET_FILL_KEYS_ALLOWED_VALUES[slotname], f"{slotname}: {ss}"
+            except:
+                breakpoint()
         elif slotname == "incident_date":
             if ss[0] == "(":
                 ss = ss[1:]

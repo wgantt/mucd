@@ -60,6 +60,19 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT",
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+            "URNG"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -174,6 +187,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+            "URNG"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -251,6 +276,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
+            "URNG"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "GUATEMALAN NATIONAL REVOLUTIONARY UNITY",
             "URNG"
           ]
@@ -341,6 +378,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -423,6 +461,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -505,6 +544,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
             "FMLN"
           ]
@@ -635,6 +686,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -734,6 +786,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -844,6 +897,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CHILEAN GOVERNMENT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "CHILEAN GOVERNMENT"
           ]
         }
@@ -1008,6 +1072,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "ARMY"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -1097,6 +1172,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -1207,6 +1283,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -1296,6 +1383,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -1429,6 +1517,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ETA",
+            "BASQUE FATHERLAND AND LIBERTY"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "MEDELLIN CARTEL"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ETA",
             "BASQUE FATHERLAND AND LIBERTY"
           ]
@@ -1585,6 +1694,28 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "MOVEMENT OF NATIONAL RESTORATION",
+            "MORENA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "ASSOCIATION OF MIDDLE MAGDALENA CATTLEMEN",
+            "ACDEGAM"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -1669,6 +1800,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -1740,6 +1872,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -1865,6 +1998,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -1934,6 +2079,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -1995,6 +2141,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -2065,6 +2212,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -2154,6 +2302,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -2227,6 +2376,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -2309,6 +2459,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "POLICE DEPARTMENT"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -2376,6 +2537,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "BRAZILIAN EMBASSY"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "BRAZILIAN EMBASSY"
           ]
         }
@@ -2455,6 +2627,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -2523,6 +2696,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "\"THE EXTRADITABLES\"",
+            "THE EXTRADITABLES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "\"THE EXTRADITABLES\"",
             "THE EXTRADITABLES"
           ]
@@ -2647,6 +2833,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "\"THE EXTRADITABLES\"",
+            "THE EXTRADITABLES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "\"THE EXTRADITABLES\"",
             "THE EXTRADITABLES"
           ]
@@ -2782,6 +2981,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -2876,6 +3086,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES",
+            "TREASURY POLICE"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
             "ARMED FORCES",
             "TREASURY POLICE"
           ]
@@ -2977,6 +3199,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
             "FMLN"
           ]
@@ -3095,6 +3329,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -3183,6 +3429,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARENA",
+            "NATIONALIST REPUBLICAN ALLIANCE",
+            "GOVERNMENT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ARENA",
             "NATIONALIST REPUBLICAN ALLIANCE",
             "GOVERNMENT"
@@ -3286,6 +3545,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -3341,6 +3601,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -3442,6 +3703,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "REVOLUTIONARY ARMED FORCES OF COLOMBIA",
+            "FARC"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -3524,6 +3797,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "REVOLUTIONARY ARMED FORCES OF COLOMBIA",
+            "FARC"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "REVOLUTIONARY ARMED FORCES OF COLOMBIA",
             "FARC"
           ]
@@ -3628,6 +3913,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -3778,6 +4064,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -3882,6 +4169,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -3953,6 +4241,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -4006,6 +4295,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -4161,6 +4451,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -4262,6 +4564,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "MEDELLIN CARTEL"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -4350,6 +4663,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMY OF NATIONAL LIBERATION",
+            "ELN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -4417,6 +4742,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -4521,6 +4847,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -4599,6 +4926,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
             "ARMED FORCES"
           ]
         }
@@ -4759,6 +5097,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "ZARATE WILKA ARMED FORCES OF LIBERATION",
+            "FAL"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -4883,6 +5233,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -4963,6 +5314,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "MANUEL RODRIGUEZ PATRIOTIC FRONT",
             "FPMR"
           ]
@@ -5089,6 +5452,27 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "LAUTARO YOUTH FRONT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5185,6 +5569,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5258,6 +5654,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5327,6 +5724,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "MANUEL RODRIGUEZ PATRIOTIC FRONT",
             "FPMR"
           ]
@@ -5406,6 +5815,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5480,6 +5901,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5535,6 +5968,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -5628,6 +6062,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -5741,6 +6176,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -5840,6 +6276,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -5936,6 +6373,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -5998,6 +6436,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -6112,6 +6551,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -6185,6 +6636,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "THE EXTRADITABLES",
             "EXTRADITABLES"
           ]
@@ -6302,6 +6765,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -6415,6 +6889,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "NATIONALIST REPUBLICAN ALLIANCE",
+            "ARENA"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -6485,6 +6971,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -6556,6 +7043,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -6620,6 +7108,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -6735,6 +7224,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "FMLN",
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
           ]
@@ -6861,6 +7362,19 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -6948,6 +7462,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "FMLN",
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
           ]
@@ -7095,6 +7621,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -7194,6 +7732,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -7287,6 +7837,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -7355,6 +7916,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -7500,6 +8062,27 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "SHINING PATH"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -7617,6 +8200,27 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "SHINING PATH"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -7711,6 +8315,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SHINING PATH"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "SHINING PATH"
           ]
         }
@@ -7817,6 +8432,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "SHINING PATH"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -7902,6 +8528,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SHINING PATH"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "SHINING PATH"
           ]
         }
@@ -7995,6 +8632,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SHINING PATH"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "SHINING PATH"
           ]
         }
@@ -8103,6 +8751,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "SHINING PATH"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -8186,6 +8845,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "SHINING PATH"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -8237,6 +8907,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -8327,6 +8998,20 @@
         {
           "type": "simple_strings",
           "strings": [
+            "COMMUNIST PARTY OF CHILE",
+            "COMMUNIST PARTY",
+            "MANUEL RODRIGUEZ PATRIOTIC FRONT",
+            "FPMR"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "COMMUNIST PARTY OF CHILE",
             "COMMUNIST PARTY",
             "MANUEL RODRIGUEZ PATRIOTIC FRONT",
@@ -8458,6 +9143,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "PEOPLE'S REVOLUTIONARY ARMY",
+            "ERP"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -8527,6 +9224,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE'S REVOLUTIONARY ARMY",
+            "ERP"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "PEOPLE'S REVOLUTIONARY ARMY",
             "ERP"
           ]
@@ -8622,6 +9331,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "PEOPLE'S REVOLUTIONARY ARMY",
+            "ERP"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -8700,6 +9421,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ZARATE WILLKA ARMED FORCES OF LIBERATION"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "ZARATE WILLKA ARMED FORCES OF LIBERATION"
           ]
         }
@@ -8895,6 +9627,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -9046,6 +9779,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -9171,6 +9905,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -9255,6 +9990,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -9345,6 +10081,20 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES",
+            "SALVADORAN ARMY",
+            "ARMY"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -9413,6 +10163,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -9523,6 +10274,18 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "COLOMBIAN MILITARY"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "COLOMBIAN MILITARY"
           ]
         }
@@ -9692,6 +10455,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "COLOMBIAN MILITARY"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -9792,6 +10566,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MEDELLIN CARTEL"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "MEDELLIN CARTEL"
           ]
         }
@@ -9900,6 +10685,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10008,6 +10794,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -10089,6 +10887,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT",
             "FMLN"
           ]
@@ -10201,6 +11011,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "THE EXTRADITABLES",
             "EXTRADITABLES"
           ]
@@ -10344,6 +11166,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10436,6 +11259,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10528,6 +11352,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10619,6 +11444,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10702,6 +11528,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -10776,6 +11603,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -10854,6 +11682,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -10934,6 +11763,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -10988,6 +11828,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
             "FMLN"
           ]
         }
@@ -11062,6 +11913,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -11243,6 +12095,41 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES",
+            "MEDELLIN CARTEL"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "ARMY"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "POLICE"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -11349,6 +12236,28 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "ARMY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE",
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "POLICE"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -11444,6 +12353,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -11520,6 +12440,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "FMLN"
           ]
         }
@@ -11613,6 +12544,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -11697,6 +12639,29 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FOCES",
+            "ARMED FOCES HIGH COMMAND"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "NATIONALIST REPUBLICAN ALLIANCE [ARENA] GOVERNMENT",
+            "ALFREDO CRISTIANI'S GOVERNMENT",
+            "GOVERNMENT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
             "ARMED FOCES",
             "ARMED FOCES HIGH COMMAND"
           ]
@@ -11824,6 +12789,39 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "HONDURAN ARMY",
+            "HONDURAN MILITARY",
+            "ARMY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "SALVADORAN ARMIES",
+            "ARCE BATTALION",
+            "ARMIES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
+            "AIR FORCE"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -11947,6 +12945,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -12093,6 +13092,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "MEDELLIN CARTEL"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -12187,6 +13197,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -12271,6 +13293,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -12338,6 +13361,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -12401,6 +13425,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -12492,6 +13517,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -12583,6 +13609,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "NATIONAL GUARD"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -12666,6 +13703,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "NATIONAL POLICE"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -12740,6 +13788,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -12835,6 +13884,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "6TH INFANTRY BRIGADE"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "6TH INFANTRY BRIGADE"
           ]
         }
@@ -12964,6 +14024,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMY"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -13054,6 +14125,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "6TH INFANTRY BRIGADE"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -13129,6 +14211,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "6TH INFANTRY BRIGADE"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "6TH INFANTRY BRIGADE"
           ]
         }
@@ -13213,6 +14306,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "MILITARY DETACHMENT NO 4"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -13282,6 +14386,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ATONAL BATTALION"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ATONAL BATTALION"
           ]
         }
@@ -13368,6 +14483,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMY OF NATIONAL LIBERATION",
+            "ELN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ARMY OF NATIONAL LIBERATION",
             "ELN"
           ]
@@ -13461,6 +14588,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMY OF NATIONAL LIBERATION",
+            "ELN"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -13530,6 +14669,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "THE EXTRADITABLES",
+            "EXTRADITABLES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "THE EXTRADITABLES",
             "EXTRADITABLES"
           ]
@@ -13628,6 +14779,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "NATIONAL POLICE",
+            "COLOMBIAN POLICE",
+            "POLICE"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "NATIONAL POLICE",
             "COLOMBIAN POLICE",
             "POLICE"
@@ -13843,6 +15007,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "ARMY OF NATIONAL LIBERATION ARMY",
+            "NATIONAL LIBERATION ARMY"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -13956,6 +15132,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -14077,6 +15254,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
             "FMLN",
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
           ]
@@ -14251,6 +15440,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -14343,6 +15544,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -14495,6 +15697,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -14560,6 +15763,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -14647,6 +15851,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -14717,6 +15922,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "ARMED FORCES"
           ]
         }
@@ -14806,6 +16022,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "TUPAC AMARU REVOLUTIONARY MOVEMENT",
             "MRTA"
           ]
@@ -14933,6 +16162,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -15005,6 +16246,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POSSIBLE"
+          ],
+          "strings_rhs": [
             "ARMED FORCES"
           ]
         }
@@ -15151,6 +16403,19 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES HIGH COMMAND",
+            "ARMED FORCES",
+            "TREASURY POLICE"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -15250,6 +16515,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -15436,6 +16702,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -15560,6 +16827,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -15691,6 +16959,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -15780,6 +17049,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -15857,6 +17127,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": [
@@ -15980,6 +17251,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "optional": true,
@@ -16059,6 +17341,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FMLN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -16118,6 +17411,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "FMLN"
           ]
         }
@@ -16213,6 +17517,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GUATEMALAN ARMY",
+            "ARMY"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "GUATEMALAN ARMY",
             "ARMY"
           ]
@@ -16357,6 +17673,7 @@
       },
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -16440,6 +17757,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -16561,6 +17879,19 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES",
+            "FECMAFAM",
+            "MSGR OSCAR ARNULFO ROMERO FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES (FECMAFAM) OF POLITICAL PRISONERS AND MURDERED AND MISSING PEOPLE"
+          ]
+        }
+      ],
       "hum_tgt_name": [
         {
           "type": "simple_strings",
@@ -16662,6 +17993,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -16740,6 +18072,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -16876,6 +18209,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT",
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -16976,6 +18321,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ARMED FORCES"
           ]
         }
@@ -17100,6 +18456,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17215,6 +18572,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17302,6 +18660,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -17350,6 +18720,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "TUPAC AMARU REVOLUTIONARY MOVEMENT",
+            "MRTA"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "TUPAC AMARU REVOLUTIONARY MOVEMENT",
             "MRTA"
           ]
@@ -17433,6 +18815,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FMLN",
+            "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT",
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "FMLN",
             "FARABUNDO MARTI NATIONAL LIBERATION FRONT"
           ]
@@ -17534,6 +18929,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17604,6 +19000,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17680,6 +19077,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17748,6 +19146,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -17844,6 +19243,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -17954,6 +19354,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -18046,6 +19447,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -18106,6 +19508,7 @@
       "perp_incident_category": null,
       "perp_individual_id": null,
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -18219,6 +19622,17 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "AIR FORCE"
+          ]
+        }
+      ],
       "phys_tgt_id": null,
       "phys_tgt_effect_of_incident": null,
       "hum_tgt_name": null,
@@ -18302,6 +19716,7 @@
         }
       ],
       "perp_organization_id": null,
+      "perp_organization_confidence": null,
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -18396,6 +19811,29 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "GUATEMALAN ARMY",
+            "ARMY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
+            "GOVERNMENT",
+            "CHRISTIAN DEMOCRATIC GOVERNMENT"
+          ]
+        }
+      ],
       "hum_tgt_name": null,
       "hum_tgt_description": [
         {
@@ -18481,6 +19919,29 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GOVERNMENT",
+            "CHRISTIAN DEMOCRATIC GOVERNMENT"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED",
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
+            "GUATEMALAN ARMY",
+            "ARMY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED"
+          ],
+          "strings_rhs": [
             "GOVERNMENT",
             "CHRISTIAN DEMOCRATIC GOVERNMENT"
           ]
@@ -18582,6 +20043,18 @@
           ]
         }
       ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SUSPECTED OR ACCUSED BY AUTHORITIES"
+          ],
+          "strings_rhs": [
+            "ARMY OF NATIONAL LIBERATION",
+            "ELN"
+          ]
+        }
+      ],
       "phys_tgt_id": [
         {
           "type": "simple_strings",
@@ -18645,6 +20118,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ELN",
+            "ARMY OF NATIONAL LIBERATION"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT"
+          ],
+          "strings_rhs": [
             "ELN",
             "ARMY OF NATIONAL LIBERATION"
           ]
@@ -18723,6 +20208,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ARMY OF NATIONAL LIBERATION"
+          ]
+        }
+      ],
+      "perp_organization_confidence": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "REPORTED AS FACT",
+            "CLAIMED OR ADMITTED"
+          ],
+          "strings_rhs": [
             "ARMY OF NATIONAL LIBERATION"
           ]
         }
