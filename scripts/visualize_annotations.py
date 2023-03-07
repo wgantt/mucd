@@ -4,6 +4,7 @@ import os
 import sys
 import time
 
+from collections import Counter
 from typing import *
 
 from preprocessing.proc_keys import SELECTED_KEYS, NON_LIST_VALUED_KEYS
@@ -122,22 +123,37 @@ def pretty_print_template(template: Dict[str, Any]) -> None:
     fprint("-" * 80)
 
 
-def get_annotated_documents(all_docs: Dict[str, Any]) -> Dict[str, Any]:
-    return {
-        k: v
-        for k, v in all_docs.items()
-        if not (len(v) == 1 and v[0]["message_template"] == "*")
-    }
+def get_annotated_documents(
+    all_docs: Dict[str, Any], multi_same_type_template_only: bool = False
+) -> Dict[str, Any]:
+    if multi_same_type_template_only:
+        return {
+            k: v
+            for k, v in all_docs.items()
+            if Counter(t["incident_type"] for t in v).most_common()[0][1] > 1
+        }
+    else:
+        return {
+            k: v
+            for k, v in all_docs.items()
+            if not (len(v) == 1 and v[0]["message_template"] == "*")
+        }
 
 
 def get_annotated_documents_for_template_type(
-    all_docs: Dict[str, Any], template_type: str
+    all_docs: Dict[str, Any],
+    template_type: str,
+    multi_same_type_template_only: bool = True,
 ) -> Dict[str, Any]:
     filtered = {}
     for k, v in all_docs.items():
         target_templates = [t for t in v if t["incident_type"].lower() == template_type]
         if target_templates:
-            filtered[k] = target_templates
+            if multi_same_type_template_only:
+                if len(target_templates) > 1:
+                    filtered[k] = target_templates
+            else:
+                filtered[k] = target_templates
     return filtered
 
 
