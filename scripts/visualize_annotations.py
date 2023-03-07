@@ -162,13 +162,16 @@ def view_annotations(
     viewing_mode: str,
     keep_irrelevant: bool = False,
     template_type: Optional[str] = None,
+    multi_same_type_template_only: bool = False,
 ) -> None:
     with open(os.path.join(DATA_DIR, split, f"{split}_keys.json")) as f:
         keys = json.load(f)
         if template_type:
-            keys = get_annotated_documents_for_template_type(keys, template_type)
+            keys = get_annotated_documents_for_template_type(
+                keys, template_type, multi_same_type_template_only
+            )
         if not keep_irrelevant:
-            keys = get_annotated_documents(keys)
+            keys = get_annotated_documents(keys, multi_same_type_template_only)
     with open(os.path.join(DATA_DIR, split, f"{split}_docs.json")) as f:
         docs = json.load(f)
         if not keep_irrelevant:
@@ -274,6 +277,11 @@ if __name__ == "__main__":
         action="store_true",
         help="also print documents that do not have any annotated templates",
     )
+    parser.add_argument(
+        "--multi-same-type",
+        action="store_true",
+        help="only print documents with multiple templates of the same type",
+    )
     parser.add_argument("--outfile", required=False, type=str, default="stdout")
     args = parser.parse_args()
     if args.outfile == "stdout":
@@ -286,6 +294,10 @@ if __name__ == "__main__":
         ), "Viewing mode was specified as 'to_file', but no output file was provided!"
 
     view_annotations(
-        args.split, args.viewing_mode, args.keep_irrelevant, args.template_type
+        args.split,
+        args.viewing_mode,
+        args.keep_irrelevant,
+        args.template_type,
+        args.multi_same_type,
     )
     outfile.close()
