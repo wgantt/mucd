@@ -34,35 +34,64 @@ Below, I present a fully worked through example that does not use any few-shot e
 
 These are the gold-annotated templates. The numbers in parentheses next to each slot fill indicate the sentence in the document that justifies that slot fill. A "?" indicates that this information cannot technically be inferred from the text.
 
-`message_template`: 1
+**Template 1**
+
 `incident_type`: BOMBING (2)
+
 `incident_stage_of_execution`: ACCOMPLISHED (2)
+
 `perp_incident_category`: TERRORIST ACT (2)
+
 `incident_date`: 10 JAN 90 (?)
+
 `incident_location`: EL SALVADOR, SAN SALVADOR (CITY) (2)
+
 `hum_tgt_effect_of_incident`: NO INJURY OR DEATH: - (3)
+
 `phys_tgt_effect_of_incident`: SOME DAMAGE: CAR DEALERSHIP (2 AND 3)
+
 `perp_individual_id`: GUERRILLA URBAN COMMANDOS (1)
+
 `perp_organization_id`:
+
 `phys_tgt_id`: CAR DEALERSHIP (2)
+
 `hum_tgt_name`:
+
 `hum_tgt_description`:
+
 `incident_instrument_id`:  HIGHPOWER BOMBS (2)
 
-`message_template`: 2
+
+
+**Template 2**
+
 `incident_type`: BOMBING (4)
+
 `incident_stage_of_execution`: ACCOMPLISHED (4)
+
 `perp_incident_category`: TERRORIST ACT (4)
+
 `incident_date`: 09 JAN 90 (4)
+
 `incident_location`: EL SALVADOR (4), SAN SALVADOR (CITY)
+
 `hum_tgt_effect_of_incident`:
+
 `phys_tgt_effect_of_incident`: SOME DAMAGE: ELECTRICITY FACILITIES (4)
+
 `perp_individual_id`: GUERRILLA URBAN COMMANDOS (4)
+
 `perp_organization_id`:
+
 `phys_tgt_id`: ELECTRICITY FACILITIES (4)
+
 `hum_tgt_name`:
+
 `hum_tgt_description`:
+
 `incident_instrument_id`:
+
 
 ### Generation
 
