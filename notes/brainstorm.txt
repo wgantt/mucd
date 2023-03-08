@@ -1,0 +1,248 @@
+Open Questions:
+- Are locations and dates always explicitly mentioned in the text?
+  - Dates are given a dateline and articles often use deictic expressions to denote events' time of occurrence
+  - For locations, the documentation says that "the country where the incident occurred may be explicit in the text or may have to be inferred"
+- Do we necessarily want to take the values of these slots as answers to questions about event dates and times?
+- Do we also want to include the "PERP: ORGANIZATION CONFIDENCE" slot? My guess is yes.
+- Do we also want to include the "PERP: INCIDENT CATEGORY" slot (TERRORIST ACT vs. STATE-SPONSORED VIOLENCE)? Probably.
+- Can we be confident that "irrelevant" documents (i.e. those without templates) are *actually* irrelevant given the ontology?
+- How should relevancy be handled (i.e. the requirements that (1) events be *recent*, and (2) they occur in one of the countries of interest)
+  - Should questions target "relevancy" properties as well?
+- Should we maybe add template anchors too?
+- **Big question: How faithful should we be to the original annotations as opposed to creating a resource that is more faithful to the text of the document?
+- How should irrealis be handled?
+
+Notes
+- The slots to be included beyond the standard five are the following:
+  - Perp: Incident category (terrorist act vs. state-sponsored violence)
+  - Target: Effect of Incident
+  - Victim: Effect of Incident
+  - Incident: Location
+  - Incident: Date
+  - Incident: Stage of Execution
+
+ 7.6 SLOT 5--INCIDENT: STAGE OF EXECUTION
+   
+  Applicability: Applicable to all types of incidents
+  Number of fillers:  Always one filler per template
+  Set list:
+    ACCOMPLISHED
+    ATTEMPTED
+    THREATENED
+  Note:  If a bomb is planted (by possible terrorists) but is detonated
+    intentionally by authorities, an ATTEMPTED BOMBING template should
+    be generated.
+
+7.9 SLOT 8--PERP: INCIDENT CATEGORY
+
+  Applicability: Applicable to all types of incidents
+  Number of fillers:  One filler per template, or NULL (hyphen) if
+    nature of perpetrator cannot be determined.
+  Set list:
+    TERRORIST ACT
+    STATE-SPONSORED VIOLENCE
+  Notes: 
+    1) TERRORIST ACT should be used when the perpetrator is *not* a
+    member of the government/military/police.
+    2) The subcategory of STATE-SPONSORED VIOLENCE should be used when 
+    the perpetrator is a member of the government/military/police.
+    3) This slot may be filled even if the perpetrators are not identified,
+    if the text gives strong evidence for the category without providing
+    any strings to fill the perpetrator slots; however, it will generally be
+    the case that this slot is null if the perpetrator slots are null.
+
+7.12 SLOT 11--PERP: ORGANIZATION CONFIDENCE
+
+  Applicability: Applicable to all types of incidents
+  Number of fillers: Null if PERP: ORGANIZATION ID slot is null, 
+    else one filler per filler in the PERP: ORGANIZATION ID slot.
+  Cross-referencing:  Include cross-reference to PERP: ORGANIZATION ID.
+  Set list:
+    REPORTED AS FACT
+    ACQUITTED
+    CLAIMED OR ADMITTED
+    SUSPECTED OR ACCUSED
+      SUSPECTED OR ACCUSED BY AUTHORITIES
+    POSSIBLE
+  Notes:  
+    1) Use REPORTED AS FACT as a default if the identity of the perpetrator 
+    org and its responsibility for the incident appear not to be in question.
+    2) Use SUSPECTED OR ACCUSED if the article explicitly expresses some
+    degree of uncertainty about the identity of the perpetrator org, e.g., by
+    use of qualifying words.
+    This fill should also be used if the article's reporting rests on 
+    suspicions or accusations expressed by some source cited by the
+    article's originator or by the article's originator himself.
+    3) Use SUSPECTED OR ACCUSED BY AUTHORITIES instead of SUSPECTED OR
+    ACCUSED for cases where the article is conveying the information that 
+    the government, military, police, or other authority figure
+    is expressing the suspicion/accusation or is accepting/admitting guilt
+    on behalf of another authority that has been identified as the 
+    perpetrator org.  
+    (In the latter case, where the perpetrator is himself an authority 
+    figure, use CLAIMED OR ADMITTED if he admits/claims his own org's guilt.)
+    4) Use POSSIBLE if an article mentions an organization in the context 
+    of the incident without actually accusing that organization of being
+    responsible for it.
+
+
+7.17 SLOT 16--PHYS TGT: EFFECT OF INCIDENT: "the impact of an incident on a physical target"
+
+| Applicability:  Not applicable to KIDNAPPING incidents
+  Number of fillers:  Null, or one or more fillers.  The EFFECT slot may be
+    filled in even if the ID/NUMBER/TYPE slots are all null (in the case
+|   where the article makes no direction mention of the target but rather
+|   refers to it indirectly by saying
+    something in summary about damage).  Conversely, the EFFECT slot may
+    be null even if the ID/NUMBER/TYPE slots are filled.
+  Cross-referencing: Include cross-reference to PHYS TGT: ID;
+    if that slot is null, generate a dummy cross-reference, e.g.,
+    NO DAMAGE: "-".
+  Set list:
+    DESTROYED
+    SOME DAMAGE
+    NO DAMAGE
+  Additional set list items for ROBBERY incidents:
+    MONEY TAKEN FROM TARGET
+    PROPERTY TAKEN FROM TARGET
+    TARGET TAKEN
+  Notes: 
+    1) Use DESTROYED when the article indicates total destruction, as
+    when it says that the target was "blown up" by a bomb.
+    2) ARSON of a target implies at least SOME DAMAGE.  Other incident
+    types, such as BOMBING, do not imply damage.
+
+
+7.24 SLOT 23--HUM TGT: EFFECT OF INCIDENT: "the impact of an incident on a human target"
+
+| Applicability:  Applicable to all types of incidents.
+  Number of fillers:  Null, or one or more fillers.  The EFFECT slot may be
+    filled in even if the NAME/DESCRIPTION/NUMBER/TYPE slots are all null 
+    (in the case where the article makes no mention at all of any human 
+    targets or unwitting victims but says something in summary about (lack
+    of) victims).  Conversely, the EFFECT slot may be null even if the 
+    ID/NUMBER/TYPE slots are filled.
+  Cross-referencing: Include cross-reference to NAME slot if NAME slot
+    is not NULL; else include cross-reference to DESCRIPTION slot.
+    If both slots are null, generate a dummy cross-reference, e.g.,
+    NO INJURY: "-".
+| Set list for all incidents except KIDNAPPING, ATTEMPTED ATTACK,
+|   and THREATENED ATTACK incidents:
+      INJURY
+      DEATH
+      NO INJURY
+      NO DEATH
+      NO INJURY OR DEATH
+  Set list for KIDNAPPING incidents, in addition to above list:
+      REGAINED FREEDOM
+| Set list for ATTEMPTED ATTACK:
+      ESCAPED
+      INJURY
+      NO INJURY
+| Set list for THREATENED ATTACK incidents:
+      INJURY
+      NO INJURY
+      RESIGNATION (i.e., from job)
+      NO RESIGNATION
+
+Question sets
+-------------
+
+Bombing:
+
+Does this article describe a(ny) bombing(s)?
+How many explosive devices were there?
+What was the <nth> device? / What kind of explosive was the <nth> device? (instrument)
+Did the <nth> device actually explode? (stage-of-execution)
+Where was the <nth> device? ()
+What organization planted the <nth> device? (PerpOrg)
+What buildings, vehicles, or infrastructure were targeted by the <nth> device? (Target)
+Who were the victims of the <nth> device? (Victim)
+Was/were <mth victim> injured?
+Was/were <mth victim> killed?
+When did the <nth> device explode? ()
+
+
+Kidnapping:
+- No weapon/instrument slot or target slot
+- Note that "m" in the questions below refers to people *actually* kidnapped
+
+Does this article describe a(ny) kidnapping(s)?
+Who were the kidnappers (PerpInd)?
+Who did <nth kidnapper> actually kidnap? (stage of execution)
+Who did <nth kidnapper> attempt to kidnap? (stage of execution)
+Who did <nth kidnapper> threaten to kidnap? (stage of execution)
+What organization was responsible for kidnapping <mth victim>? (PerpOrg)
+When was/were <mth victim> kidnapped? (date)
+Where was/were <mth victim> kidnapped? (location)
+Was/were <mth> victim ultimately freed? (hum: effect of incident)
+
+Arson:
+- Note that "n" in the questions below refers to buildings that *actually* burned?
+- "m" refers to any *actual* victims
+
+Does this article describe any buildings that were deliberately burned?
+Which buildings actually burned? (target / stage of execution)
+Which buildings did people (merely) attempt to burn (but not actually burn)? (target / stage of execution)
+Which buildings did people (merely) threaten to burn (but not actually burn)? (target / stage of execution)
+Who burned or set fire to <nth building>? (PerpInd)
+Who attempted to burn or set fire to <nth building>? (PerpInd)
+Who threatened to burn or set fire to <nth building>? (PerpInd)
+What organization was/were <mth perpetrator> part of? (PerpOrg)
+Where is <nth building>? (location)
+When did <nth building> burn? (date)
+What happened to the <nth building> as a result of being burned? (tgt: effect of incident)
+What humans were harmed when <nth building> burned? (Victim)
+Was <mth victim> injured?
+Was <mth victim> killed?
+
+Attack:
+...
+
+Robbery:
+- All annotated robberies are "ACCOMPLISHED" (i.e. no merely ATTEMPTED or THREATENED) robberies
+- Other good verbs of theft to use in the questions would be "loot" or "steal"
+
+Did anyone threaten to rob someone?
+Who threatened to rob someone?
+Who did <nth> person threaten to rob?
+What did <nth> person threaten to rob?
+
+Were any people (actually) robbed?
+Which people were robbed?
+Where was <nth person> located during the robbery?
+Who robbed the <nth person>?
+What organization was responsible for robbing <nth person>?
+What was stolen from the <nth person>?
+When was <nth person> robbed?
+Was <nth person> injured in the robbery?
+Was <nth person> killed in the robbery?
+
+Did anyone threaten to rob a vehicle?
+Who threatened to rob a vehicle?
+What vehicle did <nth> person threaten to rob?
+What did <nth> person threaten to rob (from <mth> vehicle)?
+
+Were any vehicles (actually) robbed?
+Which vehicles were robbed?
+Where was <nth vehicle> located during the robbery?
+Who robbed the <nth vehicle>?
+When was <nth vehicle> robbed?
+What organization was responsible for robbing <nth person>?
+What was stolen from the <nth> vehicle?
+
+Did anyone threaten to rob a building?
+Who threatened to rob a building?
+What building did <nth> person threaten to rob?
+What did <nth> person threaten to rob (from <mth> vehicle)?
+
+Were any places (actually) robbed?
+Which places were robbed?
+Where is <nth> places located?
+Who robbed the <nth place>?
+When was <nth place> robbed?
+What organization was responsible for robbing <nth place>?
+What was stolen from the <nth place>?
+
+Forced Work Stoppage
+...
