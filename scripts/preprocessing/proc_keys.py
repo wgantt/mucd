@@ -73,11 +73,13 @@ hum_tgt_effect_of_incident
 hum_tgt_foreign_nation
 hum_tgt_number
 hum_tgt_total_number
+hum_tgt_type
 phys_tgt_id
 phys_tgt_effect_of_incident
 phys_tgt_foreign_nation
 phys_tgt_number
 phys_tgt_total_number
+phys_tgt_type
 incident_instrument_id
 incident_location
 incident_date

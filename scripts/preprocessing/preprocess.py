@@ -6,7 +6,7 @@ import os
 import re
 
 from allennlp.data.tokenizers.sentence_splitter import SpacySentenceSplitter
-from collections import defaultdict, OrderedDict
+from collections import OrderedDict
 from tqdm import tqdm
 from typing import *
 
@@ -115,6 +115,8 @@ def preprocess(split: str) -> Tuple[Dict, Dict, Dict]:
                 continue
 
             # we only care about the slots with entity fillers
+            # we also ignore here slots that describe features of those
+            # of those entities, like 'hum_tgt_foreign_nation' or 'phys_tgt_number'
             for slot in ENTITY_KEYS:
                 if slot not in template or not template[slot]:
                     continue

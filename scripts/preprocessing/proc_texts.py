@@ -11,7 +11,7 @@ import re
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("input", help="the raw MUC input file")
+    parser.add_argument("input", help="the raw MUC input file or directory")
     parser.add_argument("output", help="the output JSON file")
     args = parser.parse_args()
 

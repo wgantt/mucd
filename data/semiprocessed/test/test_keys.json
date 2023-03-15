@@ -25,6 +25,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -34,6 +35,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUIT PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUIT PRIESTS"
           ]
         }
@@ -129,6 +141,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -144,6 +157,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MAIDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JESUITS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "MAIDS"
           ]
         }
@@ -279,6 +312,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -296,6 +330,18 @@
           "type": "colon_clause",
           "strings_lhs": [
             "FORMER DEFENSE MINISTER"
+          ],
+          "strings_rhs": [
+            "ENRIQUE LOPEZ ALBUJAR TRINT"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER GOVERNMENT OFFICIAL",
+            "FORMER ACTIVE MILITARY"
           ],
           "strings_rhs": [
             "ENRIQUE LOPEZ ALBUJAR TRINT"
@@ -413,6 +459,26 @@
           "type": "colon_clause",
           "strings_lhs": [
             "SOCIAL DEMOCRATIC LEADER"
+          ],
+          "strings_rhs": [
+            "GILDA FLORES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
+            "HECTOR OQUELI COLINDRES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "GILDA FLORES"
@@ -538,6 +604,27 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
+            "HECTOR OQUELI"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "GILDA FLORES"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -640,6 +727,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -659,6 +747,17 @@
             "UNDERSECRETARY OF THE NATIONAL REVOLUTIONARY MOVEMENT [MNR] OF EL SALVADOR",
             "UNDERSECRETARY OF THE NATIONAL REVOLUTIONARY MOVEMENT [MNR]",
             "UNDERSECRETARY OF THE NATIONAL REVOLUTIONARY MOVEMENT"
+          ],
+          "strings_rhs": [
+            "HECTOR OQUELI"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "HECTOR OQUELI"
@@ -736,6 +835,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -753,6 +853,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "CONTRA COMMANDER"
+          ],
+          "strings_rhs": [
+            "MANUEL ANTONIO RUGAMA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "MANUEL ANTONIO RUGAMA"
@@ -865,6 +976,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -882,6 +994,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "CONTRA COMMANDER"
+          ],
+          "strings_rhs": [
+            "MANUEL ANTONIO RUGAMA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "MANUEL ANTONIO RUGAMA"
@@ -1003,6 +1126,26 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "THE COMMITTEE OF MOTHERS OF POLITICAL PRISONERS AND MISSING IN EL SALVADOR"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -1037,6 +1180,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PERSONS",
+            "OTHERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PERSONS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PERSONS",
             "OTHERS"
           ]
@@ -1156,6 +1320,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES STAFF INSTALLATIONS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -1181,6 +1356,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVILIAN",
+            "OTHERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIAN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIAN",
             "OTHERS"
           ]
@@ -1312,6 +1508,35 @@
         {
           "type": "simple_strings",
           "strings": [
+            "POLITICAL LEADERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "DIPLOMAT"
+          ],
+          "strings_rhs": [
+            "HONORARY CONSULS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "NEWSMEN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
             "POLITICAL LEADERS"
           ]
         }
@@ -1475,6 +1700,20 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION [FENASTRAS]",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION",
+            "FENASTRAS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -1507,6 +1746,33 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FENASTRAS LEADERS",
+            "LEADERS",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION [FENASTRAS]",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION",
+            "FENASTRAS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION [FENASTRAS]",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION",
+            "FENASTRAS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "FENASTRAS LEADERS",
             "LEADERS",
             "SALVADORAN WORKERS NATIONAL UNION FEDERATION [FENASTRAS]",
@@ -1639,6 +1905,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -1657,6 +1924,17 @@
           "strings_lhs": [
             "PRESIDENT OF THE MORTGAGE BANK",
             "MR"
+          ],
+          "strings_rhs": [
+            "MASON"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "MASON"
@@ -1770,6 +2048,59 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "RESIDENCES OF LEADERS OF THE SOCIAL CHRISTIAN PEOPLE'S MOVEMENT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "UDN [NATIONALIST DEMOCRATIC UNION]",
+            "UDN",
+            "NATIONALIST DEMOCRATIC UNION"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "UNIVERSITY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "FECMASAN [MSGR OSCAR ARNULFO ROMERO FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES]",
+            "MSGR OSCAR ARNULFO ROMERO FEDERATION OF COMMITTEES OF MOTHERS AND RELATIVES",
+            "FECMASAN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION [FENASTRAS]",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION",
+            "FENASTRAS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -1828,6 +2159,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -1912,6 +2244,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": [
@@ -1931,6 +2264,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -2033,6 +2377,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -2042,6 +2387,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "WOMAN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "WOMAN"
           ]
         }
@@ -2135,12 +2491,14 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -2201,12 +2559,14 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -2287,6 +2647,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "LUIS MORALES"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -2353,6 +2724,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "VEHICLE",
+            "VEHICLE IN WHICH THE REPORTERS WERE TRAVELING"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -2391,6 +2774,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "TEAM FROM THE \"TODAY\" NEWSCAST"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MAURICIO PINEDA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "TEAM FROM THE \"TODAY\" NEWSCAST"
           ]
         }
@@ -2464,6 +2867,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -2482,6 +2886,17 @@
           "strings_lhs": [
             "REPORTER FOR THE BRITISH AGENCY REUTER",
             "REPORTER"
+          ],
+          "strings_rhs": [
+            "ROBERTO NAVAS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "ROBERTO NAVAS"
@@ -2617,6 +3032,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "VICE PRESIDENT-ELECT FRANCISCO MERINO'S HOME"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -2654,6 +3080,29 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "GUARDS PROTECTING MERINO'S RESIDENCE",
+            "GUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "15-YEAR-OLD GIRL",
+            "GIRL"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "GUARDS PROTECTING MERINO'S RESIDENCE",
             "GUARDS"
           ]
@@ -2782,6 +3231,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "VICE PRESIDENT-ELECT FRANCISCO MERINO'S HOME"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -2819,6 +3279,29 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "GUARDS PROTECTING MERINO'S RESIDENCE",
+            "GUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "15-YEAR-OLD GIRL",
+            "GIRL"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "GUARDS PROTECTING MERINO'S RESIDENCE",
             "GUARDS"
           ]
@@ -2943,6 +3426,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -2952,6 +3436,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GUARDS PROTECTING MERINO'S RESIDENCE",
+            "GUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "GUARDS PROTECTING MERINO'S RESIDENCE",
             "GUARDS"
           ]
@@ -3044,6 +3540,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -3053,6 +3550,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GUARDS PROTECTING MERINO'S RESIDENCE",
+            "GUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "GUARDS PROTECTING MERINO'S RESIDENCE",
             "GUARDS"
           ]
@@ -3216,6 +3725,56 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "1ST INFANTRY BRIGADE",
+            "1ST INFANTRY BRIGADE GARRISON"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT FACILITY"
+          ],
+          "strings_rhs": [
+            "NATIONAL POLICE STATION"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER POLES ON 29TH STREET",
+            "POWER POLES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "TRANSFORMERS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "ANTEL [NATIONAL ADMINISTRATION FOR TELECOMMUNICATIONS] OFFICE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -3326,6 +3885,48 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ONE OF OUR CIVILIAN EMPLOYEES",
+            "CIVILIAN EMPLOYEES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
+            "POLICEMEN",
+            "TRAFFIC POLICEMEN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "SOLDIER OF THE 1ST INFANTRY BRIGADE",
+            "SOLDIER",
+            "SOLDIER OF THE BELLOSO BATTALION"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIANS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "ONE OF OUR CIVILIAN EMPLOYEES",
             "CIVILIAN EMPLOYEES"
           ]
@@ -3483,6 +4084,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE",
+            "TRANSPORTATION FACILITY"
+          ],
+          "strings_rhs": [
+            "TRANSPORTATION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -3499,6 +4112,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -3582,6 +4196,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "CANO LIMON-COVENAS PIPELINE",
+            "PIPELINE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -3611,6 +4237,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -3669,6 +4296,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -3678,6 +4306,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "YOUNG U.S. CITIZENS",
+            "U.S. CITIZENS",
+            "CITIZENS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "YOUNG U.S. CITIZENS",
             "U.S. CITIZENS",
             "CITIZENS"
@@ -3823,6 +4464,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -3842,6 +4484,17 @@
             "MAYOR OF MULQUI DISTRICT",
             "MAYOR",
             "WOMAN MAYOR"
+          ],
+          "strings_rhs": [
+            "DOLORES HINOSTROZA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "DOLORES HINOSTROZA"
@@ -3919,6 +4572,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -3937,6 +4591,17 @@
           "strings_lhs": [
             "GOVERNOR OF THE DEPARTMENT OF ANTIOQUIA",
             "GOVERNOR"
+          ],
+          "strings_rhs": [
+            "ANTONIO ROLDAN BETANCUR"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ANTONIO ROLDAN BETANCUR"
@@ -4050,6 +4715,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "OIL PIPELINE",
+            "PIPELINE",
+            "VINA-PUERTO SALGAR OIL PIPELINE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -4080,6 +4758,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -4150,6 +4829,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "CANO LIMON-COVENAS OIL PIPELINE",
+            "OIL PIPELINE",
+            "PIPELINE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -4180,6 +4872,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -4246,6 +4939,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "OIL PIPELINE",
+            "PIPELINE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -4274,6 +4979,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -4352,6 +5058,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "CANO LIMON-COVENAS OIL PIPELINE",
+            "OIL PIPELINE",
+            "PIPELINE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -4382,6 +5101,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -4459,6 +5179,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4479,6 +5200,18 @@
             "FORMER GUATEMALAN AMBASSADOR TO SPAIN",
             "LEADER OF THE RULING CHRISTIAN DEMOCRATIC PARTY [PDC]",
             "LEADER OF THE RULING CHRISTIAN DEMOCRATIC PARTY"
+          ],
+          "strings_rhs": [
+            "DANILO BARILLAS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "DANILO BARILLAS"
@@ -4575,6 +5308,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4601,6 +5335,28 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "VALENCIA'S BODYGUARDS",
+            "BODYGUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
+          ],
+          "strings_rhs": [
+            "CARLOS VALENCIA GARCIA"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "VALENCIA'S BODYGUARDS",
             "BODYGUARDS"
           ]
@@ -4691,6 +5447,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4709,6 +5466,17 @@
           "strings_lhs": [
             "THIRD PUBLIC ORDER JUDGE",
             "JUDGE"
+          ],
+          "strings_rhs": [
+            "MARIA ELENA DIAZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
           ],
           "strings_rhs": [
             "MARIA ELENA DIAZ"
@@ -4772,6 +5540,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4781,6 +5550,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "HIS DAUGHTER",
+            "DAUGHTER"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "HIS DAUGHTER",
             "DAUGHTER"
           ]
@@ -4835,6 +5616,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4844,6 +5626,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "DAS [ADMINISTRATIVE DEPARTMENT OF SECURITY] DIRECTOR"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
             "DAS [ADMINISTRATIVE DEPARTMENT OF SECURITY] DIRECTOR"
           ]
         }
@@ -4904,6 +5697,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4913,6 +5707,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "EIGHTH PUBLIC ORDER JUDGE IN MEDELLIN",
+            "EIGHTH PUBLIC ORDER JUDGE",
+            "JUDGE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
+          ],
+          "strings_rhs": [
             "EIGHTH PUBLIC ORDER JUDGE IN MEDELLIN",
             "EIGHTH PUBLIC ORDER JUDGE",
             "JUDGE"
@@ -4989,6 +5796,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -4998,6 +5806,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GOVERNOR OF ANTIOQUIA",
+            "GOVERNOR"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
             "GOVERNOR OF ANTIOQUIA",
             "GOVERNOR"
           ]
@@ -5087,6 +5907,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -5104,6 +5925,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "JUDGE"
+          ],
+          "strings_rhs": [
+            "CARLOS VALENCIA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
           ],
           "strings_rhs": [
             "CARLOS VALENCIA"
@@ -5213,6 +6045,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -5248,6 +6081,38 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JUDGE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL",
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
+            "LUIS CARLOS GALAN"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
+            "HIGH-RANKING POLICE OFFICER",
+            "POLICE OFFICER"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
+          ],
+          "strings_rhs": [
             "JUDGE"
           ]
         }
@@ -5407,6 +6272,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER LINES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -5423,6 +6299,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -5478,6 +6355,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -5497,6 +6375,18 @@
             "SENATOR AND LIBERAL PARTY PRESIDENTIAL CANDIDATE",
             "SENATOR",
             "LIBERAL PARTY PRESIDENTIAL CANDIDATE"
+          ],
+          "strings_rhs": [
+            "LUIS CARLOS GALAN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL",
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "LUIS CARLOS GALAN"
@@ -5622,6 +6512,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION FACILITY"
+          ],
+          "strings_rhs": [
+            "INSTALLATIONS OF THE JOSE MARIA CORDOBA AIRPORT",
+            "AIRPORT INSTALLATIONS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -5648,6 +6550,31 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ONE OF THOSE KILLED",
+            "ONE OF THE PERSONS KILLED",
+            "ONE OF THE PERSONS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PERSONS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY",
+            "LAW ENFORCEMENT",
+            "SECURITY GUARD",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "ONE OF THOSE KILLED",
             "ONE OF THE PERSONS KILLED",
             "ONE OF THE PERSONS"
@@ -5808,6 +6735,37 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "STATE-OWNED AGRARIAN BOARD",
+            "AGRARIAN BOARD",
+            "BANK BUILDING"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "BUS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "STORES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -5877,6 +6835,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PERSON"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PERSON"
           ]
         }
@@ -5991,6 +6960,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "AGRARIAN BOARD BRANCH",
+            "AGRARIAN BOARD"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -6022,6 +7003,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PERSON"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PERSON"
           ]
         }
@@ -6085,6 +7077,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -6103,6 +7096,17 @@
           "strings_lhs": [
             "SECOND JUDGE OF PUBLIC ORDER",
             "JUDGE"
+          ],
+          "strings_rhs": [
+            "MARTA LUCIA GONZALEZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
           ],
           "strings_rhs": [
             "MARTA LUCIA GONZALEZ"
@@ -6156,6 +7160,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -6173,6 +7178,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "FORMER BOYACA GOVERNOR"
+          ],
+          "strings_rhs": [
+            "ALVARO GONZALEZ SANTANA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ALVARO GONZALEZ SANTANA"
@@ -6236,6 +7252,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -6249,6 +7266,17 @@
         }
       ],
       "hum_tgt_description": null,
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "LUIS CARLOS GALAN"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -6398,6 +7426,58 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "BANCO DE OCCIDENTE BRANCH",
+            "BANCO DE OCCIDENTE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "OTHER NEARBY BANKS",
+            "BANKS",
+            "NEARBY BANKS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "BANCO POPULAR BRANCH",
+            "BANCO POPULAR"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "OTHER BANKS",
+            "BANKS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "SHOPS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -6520,6 +7600,29 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SECURITY GUARD"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CHILD",
+            "9-YEAR-OLD BOY",
+            "9-YEAR-OLD BOY WHO LIVES NEAR THE BANCO DE OCCIDENTE",
+            "BOY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "SECURITY GUARD"
           ]
         }
@@ -6645,6 +7748,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE OFFICE OR RESIDENCE",
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "POLITICAL OFFICES OF THE LIBERAL AND SOCIAL CONSERVATIVE PARTIES",
+            "POLITICAL OFFICES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FINANCIAL"
+          ],
+          "strings_rhs": [
+            "BANK OFFICE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -6679,6 +7804,7 @@
       ],
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -6760,6 +7886,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "GAS STATION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -6805,6 +7942,40 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "PEOPLE",
+            "PEOPLE WHO WERE KILLED"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "EMPLOYEES OF THE GAS STATION WHERE THE CAR BOMB WENT OFF",
+            "EMPLOYEES OF THE GAS STATION"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE WHO WERE WALKING BY THE GAS STATION AT THE MOMENT OF THE EXPLOSION",
+            "PEOPLE WHO WERE WALKING BY THE GAS STATION",
+            "PEOPLE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE",
             "PEOPLE WHO WERE KILLED"
           ]
@@ -6922,6 +8093,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -6939,6 +8111,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MONSIGNOR"
+          ],
+          "strings_rhs": [
+            "ARNULFO ROMERO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "ARNULFO ROMERO"
@@ -7036,6 +8219,29 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "RICARDO ROJAS CULTURAL CENTER, LOCATED AT 132 AYACUCHO STREET, WHERE THE FORMER PRESIDENT HAS OFFICES FOR HIS POLITICAL ACTIVITIES",
+            "RICARDO ROJAS CULTURAL CENTER",
+            "OFFICES THAT FORMER PRESIDENT RAUL ALFONSIN HAS IN THIS CITY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "NEIGHBORING BUILDINGS",
+            "BUILDINGS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -7094,6 +8300,17 @@
         }
       ],
       "hum_tgt_description": null,
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "BEATRIZ IERO"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -7226,6 +8443,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -7274,6 +8492,35 @@
           "type": "colon_clause",
           "strings_lhs": [
             "EL ESPECTATOR'S CIRCULATION MANAGER"
+          ],
+          "strings_rhs": [
+            "MIGUEL SOLER RODRIGUEZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MARTHA LUZ LOPEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MARTHA LOPEZ OROZCO DE LOPEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "MIGUEL SOLER RODRIGUEZ"
@@ -7423,6 +8670,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -7439,6 +8687,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "OFFICE PERSONNEL"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "ALL THE EDITORS",
+            "EDITORS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "OFFICE PERSONNEL"
           ]
         }
@@ -7537,6 +8806,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "MAIN OFFICES IN BOGOTA OF EL ESPECTADOR"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -7566,6 +8847,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -7662,6 +8954,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "DIANA MACK ORTIZ"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -7738,6 +9041,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -7755,6 +9059,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "NUN"
+          ],
+          "strings_rhs": [
+            "PATRICIA DENNY"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "PATRICIA DENNY"
@@ -7839,6 +9154,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -7856,6 +9172,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "NUN"
+          ],
+          "strings_rhs": [
+            "DIANA MACK ORTIZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "DIANA MACK ORTIZ"
@@ -7990,6 +9317,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -7999,6 +9327,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CASUALTIES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CASUALTIES"
           ]
         }
@@ -8125,6 +9464,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "PYLONS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -8151,6 +9501,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -8199,6 +9550,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -8215,6 +9567,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JUSTICE MINISTRY EMPLOYEES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
+          ],
+          "strings_rhs": [
+            "MEDELLIN JUDGE",
+            "JUDGE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JUSTICE MINISTRY EMPLOYEES"
           ]
         }
@@ -8324,6 +9698,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "FENASTRAS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -8354,6 +9740,18 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "FENASTRAS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "FENASTRAS"
           ]
         }
@@ -8467,6 +9865,47 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "RESIDENCE OF THE LEGISLATIVE ASSEMBLY PRESIDENT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE",
+            "ORGANIZATION OFFICE",
+            "POLITICAL FIGURE OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "CENTRAL ELECTIONS COUNCIL"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "PRESIDENTIAL RESIDENCE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "HIS PRIVATE RESIDENCE",
+            "PRIVATE RESIDENCE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -8545,6 +9984,38 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PRESIDENT OF THE REPUBLIC",
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "LEGISLATIVE ASSEMBLY PRESIDENT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL",
+            "POLITICAL FIGURE",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CENTRAL ELECTIONS COUNCIL"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
             "PRESIDENT OF THE REPUBLIC",
             "PRESIDENT"
           ]
@@ -8700,6 +10171,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "6TH INFANTRY BRIGADE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -8729,6 +10212,27 @@
           "type": "simple_strings",
           "strings": [
             "MINOR"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MINOR"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "6TH INFANTRY BRIGADE"
           ]
         }
       ],
@@ -8833,6 +10337,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -8859,6 +10364,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "WORKERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "FEBE ELIZABETH"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "WORKERS"
           ]
         }
@@ -8994,6 +10519,29 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "MILITARY HELICOPTERS",
+            "HELICOPTERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION FACILITY"
+          ],
+          "strings_rhs": [
+            "AIRPORTS'S MAIN LANDING STRIP",
+            "MAIN LANDING STRIP",
+            "LANDING STRIP"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -9044,6 +10592,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -9143,6 +10692,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -9166,6 +10716,36 @@
           "type": "simple_strings",
           "strings": [
             "CHILDREN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIANS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CHILDREN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIANS",
+            "MORE"
           ]
         }
       ],
@@ -9306,6 +10886,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -9315,6 +10896,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIANS"
           ]
         }
@@ -9412,6 +11004,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -9454,6 +11047,65 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "SOLDIERS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "SOLDIERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "REBELS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "REBELS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIANS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIANS"
           ]
         }
@@ -9704,6 +11356,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -9822,6 +11475,80 @@
             "HER 15-YEAR-OLD DAUGHTER",
             "15-YEAR-OLD DAUGHTER",
             "DAUGHTER"
+          ],
+          "strings_rhs": [
+            "ELVA RAMOS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "IGNACIO ELLACURIA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "IGNACIO MARTIN BARO"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "SEGUNDO MONTES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "AMANDO LOPEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JUAN RAMON MORENO"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JOAQUIN LOPEZ Y LOPEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JULIA RAMOS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "ELVA RAMOS"
@@ -10108,6 +11835,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "PRESIDENT ALFREDO CRISTIANI'S OFFICIAL AND PERSONAL RESIDENCES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -10136,6 +11874,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "PRESIDENT"
+          ],
+          "strings_rhs": [
+            "ALFREDO CRISTIANI"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ALFREDO CRISTIANI"
@@ -10229,6 +11978,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "LEFT-WING TRADE UNION'S HEADQUARTERS",
+            "TRADE UNION'S HEADQUARTERS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -10249,6 +12010,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -10342,6 +12114,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -10367,6 +12140,39 @@
         {
           "type": "simple_strings",
           "strings": [
+            "WOMEN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JESUIT PRIESTS",
+            "PRIESTS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JESUIT PRIESTS",
+            "PRIESTS",
+            "CITIZENS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "WOMEN"
           ]
         }
@@ -10491,6 +12297,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "UNION HEADQUARTERS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -10511,6 +12328,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "LEADERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "LEADERS"
           ]
         }
@@ -10587,6 +12415,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -10596,6 +12425,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUIT PRIESTS",
+            "PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUIT PRIESTS",
             "PRIESTS"
           ]
@@ -10713,6 +12554,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "HOMES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -10739,6 +12591,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -10856,6 +12709,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "SHERATON HOTEL",
+            "HOTEL"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -10920,6 +12785,49 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "ANOTHER ONE FROM CHILE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "DIPLOMAT"
+          ],
+          "strings_rhs": [
+            "JOAO BAENA SOARES"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "MILITARY ADVISERS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "ONE FROM GUATEMALA"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "ANOTHER ONE FROM CHILE"
           ]
         }
@@ -11147,6 +13055,47 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ANOTHER ONE FROM CHILE",
+            "MILITARY ADVISERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "DIPLOMAT"
+          ],
+          "strings_rhs": [
+            "JOAO BAENA SOARES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "MILITARY ADVISERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "ONE FROM GUATEMALA",
+            "MILITARY ADVISERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "ANOTHER ONE FROM CHILE",
             "MILITARY ADVISERS"
           ]
@@ -11301,6 +13250,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -11317,6 +13267,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "HER DAUGHTER",
+            "DAUGHTER"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MOTHER"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "HER DAUGHTER",
             "DAUGHTER"
           ]
@@ -11424,6 +13396,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -11433,6 +13406,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "UNION LEADERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "UNION LEADERS"
           ]
         }
@@ -11520,6 +13504,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -11529,6 +13514,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SPANISH PRIESTS",
+            "PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "SPANISH PRIESTS",
             "PRIESTS"
           ]
@@ -11640,6 +13637,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "PRESIDENTIAL HOUSE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -11660,6 +13668,19 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "LITTLE GIRLS",
+            "GIRLS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "LITTLE GIRLS",
             "GIRLS"
           ]
@@ -11771,6 +13792,36 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "PRESIDENTIAL HOUSE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "ARMED FORCES' JOINT CHIEFS OF STAFF"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "NATIONAL GUARD GARRISON"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -11817,6 +13868,28 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "ARMED FORCES' JOINT CHIEFS OF STAFF"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "LITTLE GIRLS",
+            "GIRLS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "ARMED FORCES' JOINT CHIEFS OF STAFF"
           ]
         }
@@ -11942,6 +14015,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRICITY POSTS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -11958,6 +14042,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -12045,6 +14130,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRICITY POSTS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -12061,6 +14157,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -12141,6 +14238,31 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT FACILITY"
+          ],
+          "strings_rhs": [
+            "HEADQUARTERS OF COLOMBIA'S SECRET POLICE",
+            "BUILDING OF THE SECRET POLICE",
+            "DAS",
+            "ADMINISTRATIVE DEPARTMENT OF SECURITY"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION FACILITY",
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "NEARBY OFFICES OF THE BOGOTA TRANSPORTATION DEPARTMENT",
+            "OFFICES OF THE BOGOTA TRANSPORTATION DEPARTMENT"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -12204,6 +14326,27 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -12302,6 +14445,20 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "FENASTRAS [SALVADORAN WORKERS NATIONAL UNION FEDERATION]",
+            "FENASTRAS",
+            "SALVADORAN WORKERS NATIONAL UNION FEDERATION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -12334,6 +14491,27 @@
         }
       ],
       "hum_tgt_description": null,
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "FENASTRAS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "FEBE ELIZABETH VELAZQUEZ"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "optional": true,
@@ -12433,6 +14611,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -12442,6 +14621,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUIT PRIESTS",
+            "PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUIT PRIESTS",
             "PRIESTS"
           ]
@@ -12542,6 +14733,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "DAS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -12561,6 +14764,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "INNOCENT PEOPLE",
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "INNOCENT PEOPLE",
             "PEOPLE"
           ]
@@ -12696,6 +14911,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "ABILIO DINIZ"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -12811,6 +15037,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "COFFEE PROCESSING PLANT"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -12841,6 +15079,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SOLDIERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "SOLDIERS"
           ]
         }
@@ -12980,6 +15229,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -13001,6 +15251,36 @@
         {
           "type": "simple_strings",
           "strings": [
+            "GUERRILLAS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIAN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "SOLDIER"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN",
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "GUERRILLAS"
           ]
         }
@@ -13150,6 +15430,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "BUSINESSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -13183,6 +15474,17 @@
         }
       ],
       "hum_tgt_description": null,
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MARIA LUZ LOPEZ"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -13280,6 +15582,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRICAL POWER SYSTEM",
+            "ENTIRE ELECTRICAL POWER SYSTEM"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -13297,6 +15611,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -13339,6 +15654,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CAR BELONGING TO ONE OF THE EMBASSY'S MILITARY ATTACHES",
+            "CAR"
+          ]
+        }
+      ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "HIS CAR",
+            "CAR"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
             "CAR BELONGING TO ONE OF THE EMBASSY'S MILITARY ATTACHES",
             "CAR"
           ]
@@ -13432,6 +15769,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MILITARY ATTACHE",
+            "ONE OF THE EMBASSY'S MILITARY ATTACHES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "DIPLOMAT"
+          ],
+          "strings_rhs": [
+            "LUIS SANDIGA CABRERA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "DIPLOMAT"
+          ],
+          "strings_rhs": [
             "MILITARY ATTACHE",
             "ONE OF THE EMBASSY'S MILITARY ATTACHES"
           ]
@@ -13545,6 +15903,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -13563,6 +15922,17 @@
           "strings_lhs": [
             "SOACHA MUNICIPAL OFFICIAL",
             "MUNICIPAL OFFICIAL"
+          ],
+          "strings_rhs": [
+            "VLADIMIR ESCOBAR"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "VLADIMIR ESCOBAR"
@@ -13657,6 +16027,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -13674,6 +16045,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "SOCIAL DEMOCRATIC LEADER"
+          ],
+          "strings_rhs": [
+            "HECTOR OQUELI"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "HECTOR OQUELI"
@@ -13796,6 +16178,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "ELECTRICAL APPLIANCE STORE",
+            "STORE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -13825,6 +16219,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -13923,6 +16318,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "PUBLIC BUS",
+            "BUS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -13952,6 +16359,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -14023,6 +16431,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -14032,6 +16441,19 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUITS",
+            "JESUIT PRIESTS",
+            "PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUITS",
             "JESUIT PRIESTS",
             "PRIESTS"
@@ -14181,6 +16603,35 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "MAYOR"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "GOVERNMENT OFFICIAL"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
+            "CANDIDATE"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -14296,6 +16747,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER SYSTEM"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -14322,6 +16784,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -14404,6 +16867,17 @@
           "strings_lhs": [
             "SANTANDER DEPARTMENT SENATOR",
             "SENATOR"
+          ],
+          "strings_rhs": [
+            "JORGE SERRANO GONZALEZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "JORGE SERRANO GONZALEZ"
@@ -14510,6 +16984,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -14549,6 +17024,26 @@
             "AIR FORCE GENERAL",
             "GENERAL",
             "GEN."
+          ],
+          "strings_rhs": [
+            "ENRIQUE RUIZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "GUSTAVO LEIGH GUZMAN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER ACTIVE MILITARY"
           ],
           "strings_rhs": [
             "ENRIQUE RUIZ"
@@ -14640,6 +17135,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -14658,6 +17154,17 @@
           "strings_lhs": [
             "PRESIDENTIAL CANDIDATE",
             "DR."
+          ],
+          "strings_rhs": [
+            "BERNARDO JARAMILLO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "BERNARDO JARAMILLO"
@@ -14782,6 +17289,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "VEHICLE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -14811,6 +17329,26 @@
         }
       ],
       "hum_tgt_description": null,
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MAURICIO CAMPOS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CONCEPCION HERRERA"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -14931,6 +17469,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -14947,6 +17486,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "POLICEMEN",
+            "AGENTS",
+            "NATIONAL POLICE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MANUEL ALVARO MENDOZA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
             "POLICEMEN",
             "AGENTS",
             "NATIONAL POLICE"
@@ -15110,6 +17671,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JOSE MANUEL POSADA"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -15216,6 +17788,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "PARAMILITARY GROUP'S OUTPOST",
+            "OUTPOST"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -15244,6 +17829,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVIL DEFENSE MEMBERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "YOHALMO ANTONIO ORTIZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVIL DEFENSE MEMBERS"
           ]
         }
@@ -15381,6 +17987,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -15396,6 +18003,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVILIAN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
+            "POLICE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIAN"
           ]
         }
@@ -15509,6 +18136,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -15527,6 +18155,17 @@
           "strings_lhs": [
             "GENERAL RAFAEL HUMBERTO LARIOS'S SON-IN-LAW",
             "PILOT"
+          ],
+          "strings_rhs": [
+            "OTTO MILLA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "OTTO MILLA"
@@ -15599,6 +18238,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -15617,6 +18257,17 @@
           "strings_lhs": [
             "PRESIDENTIAL CANDIDATE",
             "MR."
+          ],
+          "strings_rhs": [
+            "CARLOS PIZARRO LEONGOMEZ"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "CARLOS PIZARRO LEONGOMEZ"
@@ -15782,6 +18433,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "HOUSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -15817,6 +18479,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "REBELS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "GOVERNMENT TROOPS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "REBELS"
           ]
         }
@@ -15907,6 +18590,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRICAL SYSTEMS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -15933,6 +18627,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -15985,6 +18680,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -15994,6 +18690,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUITS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUITS"
           ]
         }
@@ -16116,6 +18823,38 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRIC POLES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER PYLONS",
+            "PYLONS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER PYLONS",
+            "PYLONS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -16183,6 +18922,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -16298,6 +19038,27 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "CEL SUB-STATION"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "TRANSFORMER"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -16344,6 +19105,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -16445,6 +19207,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -16454,6 +19217,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JESUIT PRIESTS",
+            "PRIESTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "JESUIT PRIESTS",
             "PRIESTS"
           ]
@@ -16565,6 +19340,22 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "MORMON CHURCH",
+            "CHAPEL OF THE CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS LOCATED AT NO 3856 GOMEZ CARRENO STREET",
+            "CHAPEL OF THE CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS",
+            "CHAPEL",
+            "CHURCH",
+            "CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -16601,6 +19392,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -16682,6 +19474,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -16691,6 +19484,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "COLONEL [ADOLFO ARNOLDO] MAJANO'S BODYGUARDS",
+            "BODYGUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "COLONEL [ADOLFO ARNOLDO] MAJANO'S BODYGUARDS",
             "BODYGUARDS"
           ]
@@ -16810,6 +19615,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "LA NORIA BRIDGE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -16851,6 +19667,35 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "ALEXANDER MOLINA GRANADOS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "LIEUTENANT"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIANS"
           ]
         }
@@ -16995,6 +19840,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "ELECTRIC TOWER"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -17022,6 +19878,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -17098,6 +19955,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION FACILITY",
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "AERONICA'S REGIONAL OFFICES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -17124,6 +19993,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -17214,6 +20084,29 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE",
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "NATIONAL VANGUARD OFFICES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "NEIGHBORING HOUSES",
+            "HOUSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -17260,6 +20153,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -17327,6 +20221,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -17344,6 +20239,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MSGR"
+          ],
+          "strings_rhs": [
+            "OSCAR ARNULFO ROMERO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "OSCAR ARNULFO ROMERO"
@@ -17513,6 +20419,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "HOUSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -17553,6 +20471,31 @@
         {
           "type": "simple_strings",
           "strings": [
+            "RESIDENTS",
+            "THOSE WHO RAN FOR THEIR LIVES",
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "RESIDENTS",
+            "THOSE WHO RAN FOR THEIR LIVES",
+            "CIVILIANS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "RESIDENTS",
             "THOSE WHO RAN FOR THEIR LIVES",
             "CIVILIANS"
@@ -17740,6 +20683,27 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "SHACKS",
+            "HOUSES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "BUS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -17801,6 +20765,33 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "RESIDENTS",
+            "THOSE WHO RAN FOR THEIR LIVES",
+            "CIVILIANS",
+            "OTHERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "RESIDENTS",
+            "THOSE WHO RAN FOR THEIR LIVES",
+            "CIVILIANS",
+            "OTHERS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "RESIDENTS",
             "THOSE WHO RAN FOR THEIR LIVES",
             "CIVILIANS",
@@ -17969,6 +20960,21 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "GOVERNMENT VEHICLES, LICENSE PLATES 6906 AND 6895, USED BY THE RURAL BASIC HEALTH PLAN SECTION OF THE HEALTH MINISTRY",
+            "GOVERNMENT VEHICLES, LICENSE PLATES 6906 AND 6895",
+            "GOVERNMENT VEHICLES",
+            "VEHICLES",
+            "CARS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18003,6 +21009,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -18049,6 +21056,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -18066,6 +21074,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "SCIENTIST"
+          ],
+          "strings_rhs": [
+            "NOEL KEMPFF"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "NOEL KEMPFF"
@@ -18192,6 +21211,42 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE",
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "LIMA AGRARIAN UNIT [UNIDAD AGRARIA DE LIMA]",
+            "LIMA AGRARIAN UNIT",
+            "DEPARTMENTAL AGRARIAN UNIT NO 6",
+            "UNIDAD AGRARIA DE LIMA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "ECONOMY MINISTRY",
+            "ECONOMY AND FINANCE MINISTRY BUILDING"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "VEHICLE BELONGING TO EMOL ENTERO",
+            "VEHICLE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18232,6 +21287,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -18324,6 +21380,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "COMMUNIST PARTY HEADQUARTERS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18351,6 +21418,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -18434,6 +21502,26 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "2D ARMY DIVISION HEADQUARTERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "HOMES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18483,6 +21571,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN",
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -18586,6 +21686,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "MACHINERY BELONGING TO ALBOLONES PERUANOS, INC",
+            "MACHINERY"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18608,6 +21720,18 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "WORKERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "WORKERS"
           ]
         }
@@ -18695,6 +21819,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "CHRISTIAN DEMOCRATIC PARTY [PDC] HEADQUARTERS",
+            "PDC'S PREMISES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -18723,6 +21859,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -18775,6 +21912,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -18793,6 +21931,17 @@
           "strings_lhs": [
             "FORMER CONGRESSMAN",
             "PRESIDENT OF THE PDC'S LOCAL CHAPTER"
+          ],
+          "strings_rhs": [
+            "HUMBERTO BALZA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
           ],
           "strings_rhs": [
             "HUMBERTO BALZA"
@@ -18868,6 +22017,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -18877,6 +22027,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MEMBERS OF THE PARTY'S BOARD"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
             "MEMBERS OF THE PARTY'S BOARD"
           ]
         }
@@ -18977,6 +22138,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "ANTEL [NATIONAL ADMINISTRATION FOR TELECOMMUNICATIONS] INSTALLATIONS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19003,6 +22175,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -19121,6 +22294,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "HIGH TENSION TOWERS",
+            "TOWERS",
+            "TOWER"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19151,6 +22337,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -19245,6 +22432,20 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "HIGH TENSION TOWERS",
+            "TOWERS",
+            "TOWER",
+            "TOWER NO 430"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19277,6 +22478,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -19352,6 +22554,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "HIGH TENSION TOWERS",
+            "TOWERS",
+            "TOWER"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19383,6 +22598,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -19465,6 +22681,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -19483,6 +22700,17 @@
           "strings_lhs": [
             "PROFESSOR",
             "UNIVERSITY PROFESSOR"
+          ],
+          "strings_rhs": [
+            "HERMINIO PARRA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "HERMINIO PARRA"
@@ -19596,6 +22824,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -19612,6 +22841,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEDESTRIAN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT",
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
+            "CIVIL GUARD",
+            "POLICEMAN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEDESTRIAN"
           ]
         }
@@ -19737,6 +22988,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "DIPLOMAT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "EMBASSY"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19763,6 +23025,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -19873,6 +23136,37 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "SECTION OF THE MULTIPURPOSE PIPELINE RUNNING FROM BARRANCABERMEJA TO BUCARAMANGA",
+            "MULTIPURPOSE PIPELINE RUNNING FROM BARRANCABERMEJA TO BUCARAMANGA",
+            "MULTIPURPOSE PIPELINE",
+            "BUCARAMANGA - BARRANCABERMEJA MULTIPURPOSE PIPELINE",
+            "30-METER SECTION OF PIPELINE",
+            "PIPELINE",
+            "OIL PIPELINE",
+            "SECTION OF THE MULTIPURPOSE PIPELINE BETWEEN BARRANCABERMEJA AND BUCARAMANGA",
+            "SECTION OF THE MULTIPURPOSE PIPELINE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "100-METER SECTION OF THE CENTRAL HIGHWAY",
+            "SECTION OF THE CENTRAL HIGHWAY",
+            "CENTRAL HIGHWAY",
+            "HIGHWAY"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -19939,6 +23233,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -20019,6 +23314,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ORGANIZATION OFFICE"
+          ],
+          "strings_rhs": [
+            "HEADQUARTERS OF THE SHOE INDUSTRY WORKERS UNION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20046,6 +23352,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -20164,6 +23471,38 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "HOME OF A PERUVIAN ARMY GENERAL",
+            "HOME OF GENERAL ENRIQUE FRANCO"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "GENERAL'S VEHICLE",
+            "VEHICLE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "NEIGHBORING HOUSES",
+            "HOUSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20252,6 +23591,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "MEMBERS OF THE GENERAL'S FAMILY"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "ENRIQUE FRANCO"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "MEMBERS OF THE GENERAL'S FAMILY"
           ]
         }
@@ -20406,6 +23765,20 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "RECENTLY BUILT LA TORRE DE CRISTAL BUILDING",
+            "LA TORRE DE CRISTAL BUILDING",
+            "BUILDING"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20436,6 +23809,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -20523,6 +23897,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "ADMINISTRATIVE OFFICES OF THE [NAME INDISTINCT] SEASIDE RESORT"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20549,6 +23934,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -20652,6 +24038,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER POLE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20678,6 +24075,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -20777,6 +24175,35 @@
           ],
           "strings_rhs": [
             "GUILLERMO SAUL MEJIA HERRERA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "ROSALIO MEJIA RODRIGUEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "GUILLERMO SAUL MEJIA HERRERA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "HECTOR ROSALES MEJIA RODRIGUEZ"
           ]
         }
       ],
@@ -20918,6 +24345,27 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "COMMERCIAL BUILDING"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "BUSINESSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -20966,6 +24414,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -21043,6 +24492,19 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "[NAME INDISTINCT] PARKING LOT",
+            "PARKING LOT"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -21060,6 +24522,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -21145,6 +24608,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "LANCER MOTEL"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -21161,6 +24635,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -21262,6 +24737,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "BRIDGES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -21297,6 +24783,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "SOLDIERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "GUERRILLAS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "SOLDIERS"
           ]
         }
@@ -21441,6 +24948,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "BRIDGE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -21470,6 +24988,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE",
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE",
             "CIVILIANS"
           ]
@@ -21601,6 +25131,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "BRIDGE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -21627,6 +25168,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -21703,6 +25245,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -21724,6 +25267,35 @@
         {
           "type": "simple_strings",
           "strings": [
+            "BUS DRIVERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "WORKERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEASANTS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "BUS DRIVERS"
           ]
         }
@@ -21841,6 +25413,29 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "CHAIN OF [WORDS INDISTINCT]",
+            "CHAIN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "SHOPPING MALL"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "optional": true,
@@ -21868,6 +25463,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -21945,6 +25541,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -21962,6 +25559,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "PRESIDENT"
+          ],
+          "strings_rhs": [
+            "AUGUSTO PINOCHET"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "AUGUSTO PINOCHET"
@@ -22082,6 +25690,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "BRIDGE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "PUBLIC BUS",
+            "BUS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -22152,6 +25782,48 @@
         {
           "type": "simple_strings",
           "strings": [
+            "INJURED",
+            "POLICEMEN",
+            "CIVILIANS",
+            "EMPLOYEES OF THE CIVIL REGISTRY OFFICE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
+            "POLICEMEN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CIVILIANS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "EMPLOYEES OF THE CIVIL REGISTRY OFFICE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "INJURED",
             "POLICEMEN",
             "CIVILIANS",
@@ -22312,6 +25984,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -22338,6 +26011,28 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "OTHER SALVADORANS",
+            "SALVADORANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "OSCAR ARNULFO ROMERO"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "OTHER SALVADORANS",
             "SALVADORANS"
           ]
@@ -22438,6 +26133,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -22447,6 +26143,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CIVILIANS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CIVILIANS"
           ]
         }
@@ -22544,6 +26251,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -22559,6 +26267,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "POPULARLY ELECTED LEGISLATORS",
+            "LEGISLATORS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN",
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
+            "PATRIOTIC UNION [UP] MEMBERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
             "POPULARLY ELECTED LEGISLATORS",
             "LEGISLATORS"
           ]
@@ -22676,6 +26406,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -22696,6 +26427,17 @@
             "DEPUTY PREFECT",
             "OUTSTANDING APRA LEADER",
             "APRA LEADER"
+          ],
+          "strings_rhs": [
+            "CARLOS SOTO SEDICE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "CARLOS SOTO SEDICE"
@@ -22761,6 +26503,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -22793,6 +26536,28 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MEMBERS OF THE MANUEL RODRIGUEZ PATRIOTIC FRONT"
+          ],
+          "strings_rhs": [
+            "CECILIA MAGNI"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "RAUL PELLEGRIN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "POLITICAL FIGURE",
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "CECILIA MAGNI"
@@ -22954,6 +26719,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "CITY'S ADMINISTRATIVE OFFICES"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "FARMS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -23002,6 +26789,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -23104,6 +26892,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "FARMS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -23130,6 +26930,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -23194,6 +26995,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "ANDRES AVELINO CACERES PARK"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -23223,6 +27035,18 @@
           "type": "colon_clause",
           "strings_lhs": [
             "PRESIDENT"
+          ],
+          "strings_rhs": [
+            "ALAN GARCIA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ALAN GARCIA"
@@ -23330,6 +27154,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -23348,6 +27173,31 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "FISHERMEN",
+            "PEASANTS OF THE BORDER AREA",
+            "PEASANTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "FISHERMEN",
+            "PEASANTS OF THE BORDER AREA",
+            "PEASANTS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "FISHERMEN",
             "PEASANTS OF THE BORDER AREA",
             "PEASANTS"
@@ -23508,6 +27358,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -23517,6 +27368,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEASANTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEASANTS"
           ]
         }
@@ -23637,6 +27499,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -23646,6 +27509,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEASANTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEASANTS"
           ]
         }
@@ -23769,6 +27643,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL",
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "DANCE HALL"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -23794,6 +27680,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "POLICEMEN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT"
+          ],
+          "strings_rhs": [
             "POLICEMEN"
           ]
         }
@@ -23903,6 +27809,18 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "POWER TOWERS OF THE NATIONAL ENERGY NETWORK",
+            "POWER TOWERS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -23931,6 +27849,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -24055,6 +27974,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "EL ANGEL SUGAR MILL",
+            "ADMINISTRATIVE OFFICES OF THE SUGAR MILL"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN RESIDENCE"
+          ],
+          "strings_rhs": [
+            "NEARBY HOUSE",
+            "HOUSE"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -24114,6 +28055,27 @@
           "optional": true,
           "type": "simple_strings",
           "strings": [
+            "PEOPLE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE"
           ]
         }
@@ -24262,6 +28224,36 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "ANTEL [NATIONAL ADMINISTRATION FOR TELECOMMUNICATIONS] OFFICE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LAW ENFORCEMENT FACILITY",
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "COURT OFFICES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "COMMUNITY CENTER"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -24296,6 +28288,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -24369,6 +28362,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -24404,6 +28398,26 @@
           "strings_lhs": [
             "HER HUSBAND",
             "HUSBAND"
+          ],
+          "strings_rhs": [
+            "PARMENIDES CUENCA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "LUZ LEON"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "PARMENIDES CUENCA"
@@ -24582,6 +28596,30 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER ACTIVE MILITARY",
+            "CIVILIAN",
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "GUILLERMO RODRIGUEZ VELASQUEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "FORMER ACTIVE MILITARY",
+            "CIVILIAN",
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "MIGUEL ANTONIO AVILA BARRETO"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -24711,6 +28749,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -24751,6 +28790,36 @@
         {
           "type": "simple_strings",
           "strings": [
+            "FISHERMEN",
+            "VENEZUELAN CITIZENS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JOSE ANTONIO AREGUA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "JUSTO PASTOR CEBALLOS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "FISHERMEN",
             "VENEZUELAN CITIZENS"
           ]
@@ -24947,6 +29016,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -24956,6 +29026,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEASANT DEFENSE PATROL UNIT",
+            "PEASANTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEASANT DEFENSE PATROL UNIT",
             "PEASANTS"
           ]
@@ -25104,6 +29186,26 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "INNS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMERCIAL"
+          ],
+          "strings_rhs": [
+            "HOTELS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -25161,6 +29263,18 @@
         {
           "type": "simple_strings",
           "strings": [
+            "18 YEAR-OLD GIRL",
+            "GIRL"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "18 YEAR-OLD GIRL",
             "GIRL"
           ]
@@ -25310,6 +29424,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "BUS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -25336,6 +29461,28 @@
         {
           "type": "simple_strings",
           "strings": [
+            "CUSCO MAYORS",
+            "WIVES"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "WIVES OF THE JERSEY CITY, UNITED STATES",
+            "WIVES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "CUSCO MAYORS",
             "WIVES"
           ]
@@ -25518,6 +29665,83 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICE OR RESIDENCE"
+          ],
+          "strings_rhs": [
+            "MAYORIAL OFFICES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "NATIONAL ADMINISTRATION FOR TELECOMMUNICATIONS OFFICES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "JUNCTION BOXES"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "VEHICLES"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "BUSES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "TOWERS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "HIGH-TENSION POWER POLES",
+            "POWER POLES"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "TRANSFORMERS"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -25676,6 +29900,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEASANTS"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -25769,6 +30004,17 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEASANTS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEASANTS"
           ]
         }
@@ -25883,6 +30129,39 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "TRAINS BELONGING TO THE SALVADORAN NATIONAL RAILROAD, FENADESAL",
+            "TRAINS BELONGING TO THE SALVADORAN NATIONAL RAILROAD",
+            "TRAINS"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "VEHICLES"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "BUSES"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -25962,6 +30241,27 @@
         {
           "type": "simple_strings",
           "strings": [
+            "PEOPLE",
+            "OTHERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
             "PEOPLE",
             "OTHERS"
           ]
@@ -26077,6 +30377,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -26119,6 +30420,46 @@
           "type": "simple_strings",
           "strings": [
             "BODYGUARD-CHAUFFEUR",
+            "BODYGUARD"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL",
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "GUSTAVO DE JESUS ESCOBAR FERNANDEZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "MARIA FLOREZ GUTIERREZ"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "PEOPLE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "BODYGUARD"
           ]
         }
@@ -26274,6 +30615,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "TRAIN"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -26300,6 +30652,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": [
@@ -26382,6 +30735,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -26403,6 +30757,17 @@
             "3D-YEAR STUDENT",
             "STUDENT",
             "MINOR"
+          ],
+          "strings_rhs": [
+            "MAURICIO VERA BARRIOS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "MAURICIO VERA BARRIOS"
@@ -26524,6 +30889,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -26556,6 +30922,26 @@
           "type": "colon_clause",
           "strings_lhs": [
             "ENGINEERS"
+          ],
+          "strings_rhs": [
+            "AUGUSTO VILCAHUMAN"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "ADOLFO SPEZUA"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "AUGUSTO VILCAHUMAN"
@@ -26694,6 +31080,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -26741,6 +31128,45 @@
         {
           "type": "simple_strings",
           "strings": [
+            "JUSTICE OF THE PEACE"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "THOMAS PELLISSIER"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "CORINE SEGUIN"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
+          ],
+          "strings_rhs": [
+            "ENGINEERS",
+            "PERUVIANS"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
+          ],
+          "strings_rhs": [
             "JUSTICE OF THE PEACE"
           ]
         }
@@ -26927,6 +31353,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -26944,6 +31371,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MAYOR"
+          ],
+          "strings_rhs": [
+            "HECTOR AREVALO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "HECTOR AREVALO"
@@ -27081,6 +31519,17 @@
           ]
         }
       ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
+          ],
+          "strings_rhs": [
+            "ALBERTO CELIS SANCHEZ"
+          ]
+        }
+      ],
       "hum_tgt_number": [
         {
           "type": "colon_clause",
@@ -27137,6 +31586,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27155,6 +31605,17 @@
           "strings_lhs": [
             "SIPI MAYOR",
             "MAYOR"
+          ],
+          "strings_rhs": [
+            "MANUEL SANTOS CRUZ ARBOLEDA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "MANUEL SANTOS CRUZ ARBOLEDA"
@@ -27243,6 +31704,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27260,6 +31722,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MAYOR"
+          ],
+          "strings_rhs": [
+            "ALFREDO CHAMORRO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ALFREDO CHAMORRO"
@@ -27347,6 +31820,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27364,6 +31838,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MAYOR"
+          ],
+          "strings_rhs": [
+            "ALFREDO CHAMORRO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "ALFREDO CHAMORRO"
@@ -27430,6 +31915,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27439,6 +31925,20 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ONE OF THE BODYGUARDS OF HUGO GARCIA SALVATECCI, BANK AND INSURANCE SUPERINTENDANT",
+            "ONE OF THE BODYGUARDS OF HUGO GARCIA SALVATECCI",
+            "ONE OF THE BODYGUARDS",
+            "BODYGUARDS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "SECURITY GUARD"
+          ],
+          "strings_rhs": [
             "ONE OF THE BODYGUARDS OF HUGO GARCIA SALVATECCI, BANK AND INSURANCE SUPERINTENDANT",
             "ONE OF THE BODYGUARDS OF HUGO GARCIA SALVATECCI",
             "ONE OF THE BODYGUARDS",
@@ -27509,6 +32009,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27518,6 +32019,20 @@
         {
           "type": "simple_strings",
           "strings": [
+            "ALLEGED MEMBER OF THE PERUVIAN COMMUNIST PARTY",
+            "MAN",
+            "INDIVIDUAL"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN",
+            "POLITICAL FIGURE"
+          ],
+          "strings_rhs": [
             "ALLEGED MEMBER OF THE PERUVIAN COMMUNIST PARTY",
             "MAN",
             "INDIVIDUAL"
@@ -27619,6 +32134,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27636,6 +32152,18 @@
           "type": "colon_clause",
           "strings_lhs": [
             "NAVAL ATTACHE"
+          ],
+          "strings_rhs": [
+            "JUAN CARLOS VEGA LLONA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "DIPLOMAT",
+            "GOVERNMENT OFFICIAL"
           ],
           "strings_rhs": [
             "JUAN CARLOS VEGA LLONA"
@@ -27759,6 +32287,7 @@
       "perp_organization_id": null,
       "perp_organization_confidence": null,
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -27778,6 +32307,17 @@
             "PROFESSOR AT THE WESTERN CAMPUS OF THE NATIONAL UNIVERSITY",
             "PROFESSOR",
             "HEAD OF THE LAW DEPARTMENT"
+          ],
+          "strings_rhs": [
+            "ROSA IMELDA GONZALEZ MEDRANO"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "CIVILIAN"
           ],
           "strings_rhs": [
             "ROSA IMELDA GONZALEZ MEDRANO"
@@ -27874,6 +32414,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORTATION ROUTE"
+          ],
+          "strings_rhs": [
+            "BRIDGE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "TRANSPORT VEHICLE"
+          ],
+          "strings_rhs": [
+            "PRIVATE CAR",
+            "CAR"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -27920,6 +32482,26 @@
         {
           "type": "simple_strings",
           "strings": [
+            "NONCOMMISSIONED OFFICERS"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
+            "OFFICER"
+          ]
+        },
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ACTIVE MILITARY"
+          ],
+          "strings_rhs": [
             "NONCOMMISSIONED OFFICERS"
           ]
         }
@@ -28070,6 +32652,28 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "COMMUNICATIONS"
+          ],
+          "strings_rhs": [
+            "ANTEL [NATIONAL ADMINISTRATION FOR TELECOMMUNICATIONS] OFFICE"
+          ]
+        },
+        {
+          "optional": true,
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "LOCAL GARRISON",
+            "GARRISON"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -28118,6 +32722,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -28207,6 +32812,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "ENERGY"
+          ],
+          "strings_rhs": [
+            "CEL [LEMPA RIVER HYDROELECTRIC EXECUTIVE COMMISSION] SAN LUIS SUBSTATION"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -28233,6 +32849,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -28322,6 +32939,17 @@
           ]
         }
       ],
+      "phys_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "OTHER"
+          ],
+          "strings_rhs": [
+            "CHECKPOINT"
+          ]
+        }
+      ],
       "phys_tgt_number": [
         {
           "type": "colon_clause",
@@ -28348,6 +32976,7 @@
       "phys_tgt_total_number": null,
       "hum_tgt_name": null,
       "hum_tgt_description": null,
+      "hum_tgt_type": null,
       "hum_tgt_number": null,
       "hum_tgt_foreign_nation": null,
       "hum_tgt_effect_of_incident": null,
@@ -28419,6 +33048,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -28436,6 +33066,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MILITARY JUDGE"
+          ],
+          "strings_rhs": [
+            "FERNANDO TORRES SILVA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
           ],
           "strings_rhs": [
             "FERNANDO TORRES SILVA"
@@ -28514,6 +33155,7 @@
         }
       ],
       "phys_tgt_id": null,
+      "phys_tgt_type": null,
       "phys_tgt_number": null,
       "phys_tgt_foreign_nation": null,
       "phys_tgt_effect_of_incident": null,
@@ -28531,6 +33173,17 @@
           "type": "colon_clause",
           "strings_lhs": [
             "MILITARY JUDGE"
+          ],
+          "strings_rhs": [
+            "FERNANDO TORRES SILVA"
+          ]
+        }
+      ],
+      "hum_tgt_type": [
+        {
+          "type": "colon_clause",
+          "strings_lhs": [
+            "LEGAL OR JUDICIAL"
           ],
           "strings_rhs": [
             "FERNANDO TORRES SILVA"
