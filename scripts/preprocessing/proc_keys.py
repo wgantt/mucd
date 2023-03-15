@@ -67,11 +67,17 @@ perp_individual_id
 perp_organization_id
 perp_organization_confidence
 perp_incident_category
-phys_tgt_id
 hum_tgt_name
 hum_tgt_description
 hum_tgt_effect_of_incident
+hum_tgt_foreign_nation
+hum_tgt_number
+hum_tgt_total_number
+phys_tgt_id
 phys_tgt_effect_of_incident
+phys_tgt_foreign_nation
+phys_tgt_number
+phys_tgt_total_number
 incident_instrument_id
 incident_location
 incident_date
@@ -315,19 +321,19 @@ def parse_strings_possibly_with_alternations(namestr, slotname=None):
             "perp_organization_confidence",
         }:
             # These slots should not have strings escaped
-            try:
-                assert ss in SET_FILL_KEYS_ALLOWED_VALUES[slotname], f"{slotname}: {ss}"
-            except:
-                breakpoint()
+            assert ss in SET_FILL_KEYS_ALLOWED_VALUES[slotname], f"{slotname}: {ss}"
         elif slotname == "incident_date":
             if ss[0] == "(":
                 ss = ss[1:]
             if ss[-1] == ")":
                 ss = ss[:-1]
         else:
-            if not (ss[0] == '"' and ss[-1] == '"'):
+            if (ss[0] == '"' and ss[-1] != '"') or (ss[0] != '"' and ss[-1] == '"'):
                 warning("WTF ||| " + ss)
-            ss = ss[1:-1]
+            if ss[0] == '"':
+                ss = ss[1:]
+            if ss[-1] == '"':
+                ss = ss[:-1]
         # ss = ss.decode('string_escape')  # They seem to use C-style backslash escaping
         ss = decode(ss, "unicode-escape")
         ss = ss.strip()

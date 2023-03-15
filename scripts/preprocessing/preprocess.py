@@ -23,7 +23,6 @@ hum_tgt_description
 incident_instrument_id
 incident_location
 """.split()
-# TODO: add hum_tgt_description
 
 # Typos in the dataset
 MANUAL_FIXES = {
