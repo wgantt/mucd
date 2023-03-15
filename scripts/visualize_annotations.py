@@ -9,7 +9,7 @@ from typing import *
 
 from preprocessing.proc_keys import SELECTED_KEYS, NON_LIST_VALUED_KEYS
 
-DATA_DIR = "data/processed/"
+DATA_DIR = "data/semiprocessed/"
 
 ENTITY_KEYS = """
 perp_individual_id
