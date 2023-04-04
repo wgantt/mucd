@@ -4,7 +4,6 @@ import html
 import os
 import re
 
-from itertools import islice
 from typing import *
 
 DATA_PATH = "data/processed/"
