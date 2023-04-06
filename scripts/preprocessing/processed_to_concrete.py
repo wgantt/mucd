@@ -18,7 +18,12 @@ import tokenizations
 
 from cement.cement_common import augf
 from cement.cement_document import CementDocument
-from cement.cement_utils import create_section_from_tokens
+from cement.cement_utils import (
+    create_section_from_tokens,
+    InputTokenWithSpan,
+    InputSentenceWithSpan,
+    InputSectionWithSpan,
+)
 from cement.cement_entity_mention import CementEntityMention
 from concrete import (
     AnnotationMetadata,
@@ -53,13 +58,16 @@ def to_concrete():
         ):
             text = doc["text"]
             all_tokens = []
-            tokens_by_sentence = []
+            input_sentences = []
             for (start, end) in doc["sentences"]:
-                tokens = []
+                input_tokens = []
                 for tok in TOKENIZER(text[start:end]):
-                    tokens.append(tok.text)
+                    global_tok_start = start + tok.idx
+                    global_tok_end = global_tok_start + len(tok)
+                    input_tokens.append(InputTokenWithSpan(text=tok.text, start=global_tok_start, end=global_tok_end))
                     all_tokens.append(tok.text)
-                tokens_by_sentence.append(tokens)
+                input_sentences.append(InputSentenceWithSpan(tokens=input_tokens, start=start, end=end))
+            input_section = InputSectionWithSpan(sentences=input_sentences, start=0, end=len(text))
             tok2char, char2tok = tokenizations.get_alignments(all_tokens, text)
 
             communication_metadata = AnnotationMetadata(
@@ -70,7 +78,7 @@ def to_concrete():
                 id=doc_id,
                 type="muc_document",
                 text=text,
-                sectionList=[create_section_from_tokens(tokens_by_sentence)],
+                sectionList=[create_section_from_tokens(input_section)],
                 metadata=communication_metadata,
             )
             cement_doc = CementDocument.from_communication(comm)
@@ -91,7 +99,7 @@ def to_concrete():
                                     CementEntityMention(
                                         tok_start[0],
                                         tok_end[0],
-                                        text=text,
+                                        text=text[char_start:char_end],
                                         document=cement_doc,
                                     )
                                 )
