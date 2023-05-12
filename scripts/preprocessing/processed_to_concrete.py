@@ -58,16 +58,35 @@ def to_concrete():
         ):
             text = doc["text"]
             all_tokens = []
-            input_sentences = []
+            # last item in list represents current section
+            input_sentences_by_section = [[]]
+            # first item in list represents current section
+            remaining_sections = [(s, e) for (s, e) in doc["sections"]]
             for (start, end) in doc["sentences"]:
+                while not (remaining_sections[0][0] <= start and end <= remaining_sections[0][1]):
+                    input_sentences_by_section.append([])
+                    remaining_sections.pop(0)
+                    if not remaining_sections:
+                        raise ValueError(
+                            "Invalid input: Either sections are not ordered or sentence bounds exceed section bounds.")
                 input_tokens = []
                 for tok in TOKENIZER(text[start:end]):
                     global_tok_start = start + tok.idx
                     global_tok_end = global_tok_start + len(tok)
                     input_tokens.append(InputTokenWithSpan(text=tok.text, start=global_tok_start, end=global_tok_end))
                     all_tokens.append(tok.text)
-                input_sentences.append(InputSentenceWithSpan(tokens=input_tokens, start=start, end=end))
-            input_section = InputSectionWithSpan(sentences=input_sentences, start=0, end=len(text))
+                input_sentences_by_section[-1].append(InputSentenceWithSpan(tokens=input_tokens, start=start, end=end))
+            # remove current section
+            remaining_sections.pop()
+            # add empty sentence lists for remaining sections
+            while remaining_sections:
+                input_sentences_by_section.append([])
+                remaining_sections.pop()
+            # convert sentence lists to cement sections
+            input_sections = [
+                InputSectionWithSpan(sentences=input_sentences, start=start, end=end)
+                for ((start, end), input_sentences) in zip(doc["sections"], input_sentences_by_section)
+            ]
             tok2char, char2tok = tokenizations.get_alignments(all_tokens, text)
 
             communication_metadata = AnnotationMetadata(
@@ -78,7 +97,7 @@ def to_concrete():
                 id=doc_id,
                 type="muc_document",
                 text=text,
-                sectionList=[create_section_from_tokens(input_section)],
+                sectionList=[create_section_from_tokens(input_section) for input_section in input_sections],
                 metadata=communication_metadata,
             )
             cement_doc = CementDocument.from_communication(comm)

@@ -52,18 +52,16 @@ def is_subset(candidate, entity):
     return True
 
 
-def clean_muc_text(document: str) -> str:
-    # strip newlines and extra spaces
+def clean_muc_text(document: str) -> List[str]:
+    # segment into paragraphs (sections) and strip newlines and extra spaces
     # NOTE: the preprocessing script at the following URL does not strip extra spaces:
     #       https://github.com/xinyadu/gtt/blob/master/data/muc/scripts/preprocess.py
-    cleaned_text = " ".join(
-        [
-            segment
-            for paragraph in document.split("\n\n")
-            for segment in paragraph.split("\n")
-        ]
-    )
-    return re.sub(r" +", " ", cleaned_text)
+    cleaned_sections = [
+        re.sub(r"\s+", " ", paragraph.strip(), flags=re.DOTALL)
+        for paragraph in document.split("\n\n")
+        if paragraph.strip()
+    ]
+    return cleaned_sections
 
 
 def preprocess(split: str) -> Tuple[Dict, Dict, Dict]:
@@ -84,24 +82,36 @@ def preprocess(split: str) -> Tuple[Dict, Dict, Dict]:
     # augment annotations with sentence- and document-level index information
     unlocatable_entity_mentions = {}
     unlocatable_location_mentions = {}
-    for document, document_text in tqdm(
+    for document, document_sections in tqdm(
         doc_dict.items(), desc=f'Processing split "{split}"'
     ):
 
-        # split document text into sentences
+        # postprocess document sections
+        document_text = " ".join(document_sections)
+        section_idxs = []
+        for section in document_sections:
+            start_idx = section_idxs[-1][1] + 1 if section_idxs else 0
+            end_idx = start_idx + len(section)
+            section_idxs.append((start_idx, end_idx))
+
+        # split document sections into sentences
         # NOTE: strangely, the SpaCy sentence splitter works terribly on
         #       text in all caps, which is why we lowercase the text here
-        sentences = sentence_splitter.split_sentences(document_text.lower())
         sentence_idxs = []
-        lowercase_document_text = document_text.lower()
-        for s in sentences:
-            start_idx = lowercase_document_text.index(s)
-            end_idx = start_idx + len(s)
-            sentence_idxs.append((start_idx, end_idx))
+        for ((section_start_idx, _), section_text) in zip(section_idxs, document_sections):
+            lowercase_section_text = section_text.lower()
+            sentence_idx_offset = 0
+            for sentence in sentence_splitter.split_sentences(lowercase_section_text):
+                start_idx_within_section = lowercase_section_text.index(sentence, sentence_idx_offset)
+                start_idx = section_start_idx + start_idx_within_section
+                end_idx = start_idx + len(sentence)
+                sentence_idxs.append((start_idx, end_idx))
+                sentence_idx_offset = start_idx_within_section + len(sentence)
 
         # create augmented entry for this document
         output[document] = {
             "text": document_text,
+            "sections": section_idxs,
             "sentences": sentence_idxs,
             "templates": [],
         }
@@ -215,7 +225,7 @@ if __name__ == "__main__":
         os.makedirs(split_dir, exist_ok=True)
         processed_file = os.path.join(split_dir, f"{split}.json")
         print("Unlocatable entity mentions:")
-        print(unlocatable_entity_mentions)
+        print(json.dumps(unlocatable_entity_mentions, indent=4))
         with open(processed_file, "w") as f_processed:
             json.dump(preprocessed_data, f_processed, indent=4)
         unlocatable_entity_mentions_file = os.path.join(
