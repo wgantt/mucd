@@ -37,13 +37,15 @@ PROCESSED_DATA_ROOT = "data/processed/"
 OUTPUT_DIR = "data/concrete/"
 SPLITS = ["train", "dev", "test"]
 
-SLOTS_OF_INTEREST = [
-    "hum_tgt_name",
-    "perp_individual_id",
-    "perp_organization_id",
-    "phys_tgt_id",
-    "incident_instrument_id",
-]
+# maps actual slot names (in data) to modified
+# slot names used by IterX and other models
+SLOTS_OF_INTEREST = {
+    "hum_tgt_name": "victim",
+    "perp_individual_id": "perpind",
+    "perp_organization_id": "perporg",
+    "phys_tgt_id": "target",
+    "incident_instrument_id": "weapon"
+}
 
 TOKENIZER = spacy.load("en_core_web_sm")
 
@@ -126,7 +128,7 @@ def to_concrete():
                                 entity_mentions, entity_type="ENTITY"
                             )
                             template_fillers.append(
-                                Argument(role=slot, entityId=entity_uuid)
+                                Argument(role=SLOTS_OF_INTEREST[slot], entityId=entity_uuid)
                             )
                 cement_doc.add_raw_situation(
                     situation_type="incident_type",
