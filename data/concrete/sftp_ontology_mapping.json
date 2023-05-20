@@ -1,0 +1,7 @@
+{
+	"hum_tgt_name": "victim",
+	"perp_individual_id": "perpind",
+	"perp_organization_id": "perporg",
+	"phys_tgt_id": "target",
+	"inicident_instrument_id": "weapon"
+}

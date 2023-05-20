@@ -36,16 +36,12 @@ from tqdm import tqdm
 PROCESSED_DATA_ROOT = "data/processed/"
 OUTPUT_DIR = "data/concrete/"
 SPLITS = ["train", "dev", "test"]
+ONTOLOGY_MAPPING = "data/concrete/sftp_ontology_mapping.json"
 
 # maps actual slot names (in data) to modified
 # slot names used by IterX and other models
-SLOTS_OF_INTEREST = {
-    "hum_tgt_name": "victim",
-    "perp_individual_id": "perpind",
-    "perp_organization_id": "perporg",
-    "phys_tgt_id": "target",
-    "incident_instrument_id": "weapon"
-}
+with open(ONTOLOGY_MAPPING) as f:
+    SLOTS_OF_INTEREST = json.load(f)
 
 TOKENIZER = spacy.load("en_core_web_sm")
 
@@ -65,19 +61,29 @@ def to_concrete():
             # first item in list represents current section
             remaining_sections = [(s, e) for (s, e) in doc["sections"]]
             for (start, end) in doc["sentences"]:
-                while not (remaining_sections[0][0] <= start and end <= remaining_sections[0][1]):
+                while not (
+                    remaining_sections[0][0] <= start
+                    and end <= remaining_sections[0][1]
+                ):
                     input_sentences_by_section.append([])
                     remaining_sections.pop(0)
                     if not remaining_sections:
                         raise ValueError(
-                            "Invalid input: Either sections are not ordered or sentence bounds exceed section bounds.")
+                            "Invalid input: Either sections are not ordered or sentence bounds exceed section bounds."
+                        )
                 input_tokens = []
                 for tok in TOKENIZER(text[start:end]):
                     global_tok_start = start + tok.idx
                     global_tok_end = global_tok_start + len(tok)
-                    input_tokens.append(InputTokenWithSpan(text=tok.text, start=global_tok_start, end=global_tok_end))
+                    input_tokens.append(
+                        InputTokenWithSpan(
+                            text=tok.text, start=global_tok_start, end=global_tok_end
+                        )
+                    )
                     all_tokens.append(tok.text)
-                input_sentences_by_section[-1].append(InputSentenceWithSpan(tokens=input_tokens, start=start, end=end))
+                input_sentences_by_section[-1].append(
+                    InputSentenceWithSpan(tokens=input_tokens, start=start, end=end)
+                )
             # remove current section
             remaining_sections.pop()
             # add empty sentence lists for remaining sections
@@ -87,7 +93,9 @@ def to_concrete():
             # convert sentence lists to cement sections
             input_sections = [
                 InputSectionWithSpan(sentences=input_sentences, start=start, end=end)
-                for ((start, end), input_sentences) in zip(doc["sections"], input_sentences_by_section)
+                for ((start, end), input_sentences) in zip(
+                    doc["sections"], input_sentences_by_section
+                )
             ]
             tok2char, char2tok = tokenizations.get_alignments(all_tokens, text)
 
@@ -99,7 +107,10 @@ def to_concrete():
                 id=doc_id,
                 type="muc_document",
                 text=text,
-                sectionList=[create_section_from_tokens(input_section) for input_section in input_sections],
+                sectionList=[
+                    create_section_from_tokens(input_section)
+                    for input_section in input_sections
+                ],
                 metadata=communication_metadata,
             )
             cement_doc = CementDocument.from_communication(comm)
@@ -128,7 +139,9 @@ def to_concrete():
                                 entity_mentions, entity_type="ENTITY"
                             )
                             template_fillers.append(
-                                Argument(role=SLOTS_OF_INTEREST[slot], entityId=entity_uuid)
+                                Argument(
+                                    role=SLOTS_OF_INTEREST[slot], entityId=entity_uuid
+                                )
                             )
                 cement_doc.add_raw_situation(
                     situation_type="incident_type",
