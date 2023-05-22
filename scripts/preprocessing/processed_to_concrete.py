@@ -11,6 +11,7 @@ values for four five slots (apart from incident_type):
 Author: Will Gantt
 Date: 4/4/23
 """
+import argparse
 import json
 import os
 import spacy
@@ -46,7 +47,7 @@ with open(ONTOLOGY_MAPPING) as f:
 TOKENIZER = spacy.load("en_core_web_sm")
 
 
-def to_concrete():
+def to_concrete(lowercase: bool):
     for split in SPLITS:
         data = json.load(
             open(os.path.join(PROCESSED_DATA_ROOT, split, split + ".json"))
@@ -54,7 +55,7 @@ def to_concrete():
         for doc_id, doc in tqdm(
             data.items(), desc=f"Processing documents in split {split}"
         ):
-            text = doc["text"]
+            text = doc["text"].lower() if lowercase else doc["text"]
             all_tokens = []
             # last item in list represents current section
             input_sentences_by_section = [[]]
@@ -148,10 +149,16 @@ def to_concrete():
                     situation_kind=template["incident_type"],
                     arguments=template_fillers,
                 )
+            output_subdir = "lowercase" if lowercase else "uppercase"
             cement_doc.to_communication_file(
-                os.path.join(OUTPUT_DIR, split, doc_id + ".comm")
+                os.path.join(OUTPUT_DIR, output_subdir, split, doc_id + ".comm")
             )
 
 
 if __name__ == "__main__":
-    to_concrete()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--lowercase", action="store_true", help="whether to lowercase all MUC text"
+    )
+    args = parser.parse_args()
+    to_concrete(args.lowercase)
