@@ -33,26 +33,33 @@
 
 	<script type="text/javascript">
 
-		function validateAll(num_sentences) {
+		function validateAll(num_tokens) {
 			var all_valid = true;
 			$("input.user_input").each(function (inp) {
 				var inp = $(this).val();
 				console.log(inp);
-				if (inp != "?") {
-					// sentence numbers may be comma separated
-					// in cases where evidence can be found in
-					// multiple individual sentences
-					var nums = inp.split(",");
-					// sentence numbers will be semicolon separated
-					// in cases where evidence spans multiple sentences
-					if (nums.length == 1) {
-						nums = inp.split(";");
+				// triggers are comma separated indices or ranges of indices
+				var num_ranges = inp.split(",");
+				for (var i = 0; i < num_ranges.length; i++) {
+					var nums = num_ranges[i].split("-");
+					if (nums.length > 2) {
+						all_valid = false;
+						break;
 					}
-					// each number listed must be between 1 and num_sentences
-					for (var i = 0; i < nums.length; i++) {
-						var curr_num = Number(nums[i].trim());
-						if (!(curr_num >= 1 && curr_num <= num_sentences)) {
+					first_num = Number(nums[0].trim());
+					if (!(first_num >= 0 && first_num <= num_tokens)) {
+						all_valid = false;
+						break;
+					}
+					if (nums.length == 2) {
+						second_num = Number(nums[1].trim());
+						if (!(second_num >= 0 && second_num <= num_tokens)) {
 							all_valid = false;
+							break;
+						}
+						if (first_num > second_num) {
+							all_valid = false;
+							break;
 						}
 					}
 				}
@@ -65,8 +72,8 @@
 			}
 		}
 
-		function makeTextInput() {
-			return '\t<input type="text" class="user_input"></input>'
+		function makeTextInput(num_tokens) {
+			return '\t<input type="text" class="user_input" onchange="validateAll(' + num_tokens + ')"></input>'
 		}
 
 		// Mechanical Turk will fill in '$ { varname }' variables when
@@ -103,9 +110,10 @@
 			}
 			task_html += '</ol></div>'
 			var template = var_arrays['template']
+			var tokens = var_arrays['tokens']
 			task_html += '<h2>Template</h2>';
 			task_html += '<div class="template_section">';
-			task_html += '<div class="slot_section"><b>Trigger</b>: ' + makeTextInput() + '</div>';
+			task_html += '<div class="slot_section"><b>Trigger</b>: ' + makeTextInput(tokens.length) + '</div>';
 			for (const [orig_slot_name, nice_slot_name] of Object.entries(nice_slot_names)) {
 				var slot_data = template[orig_slot_name];
 				if (orig_slot_name == "incident_type") {
