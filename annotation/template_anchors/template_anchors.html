@@ -1,0 +1,175 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<section class="container" id="Other"
+	style="margin-bottom:15px; padding: 10px 10px; font-family: Arial, Helvetica, Verdana, Geneva, sans-serif; color:#333333; font-size:1.2em;">
+	<!-- style -->
+	<style type="text/css">
+		.panel-heading {
+			background-color: #FFFFFF !important;
+			color: #333333 !important;
+			font-size: 2.0em;
+			border: 0px solid #FFFFFF;
+		}
+
+		.panel-primary {
+			border-color: #FFFFFF;
+			border: 0px solid #FFFFFF;
+		}
+
+		.document_section {
+			margin-bottom: 2em;
+		}
+
+		.dependent {
+			display: none;
+			margin-left: 40px;
+		}
+
+		blockquote {
+			border-left: 5px solid #666666;
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		function validateAll(num_sentences) {
+			var all_valid = true;
+			$("input.user_input").each(function (inp) {
+				var inp = $(this).val();
+				console.log(inp);
+				if (inp != "?") {
+					// sentence numbers may be comma separated
+					// in cases where evidence can be found in
+					// multiple individual sentences
+					var nums = inp.split(",");
+					// sentence numbers will be semicolon separated
+					// in cases where evidence spans multiple sentences
+					if (nums.length == 1) {
+						nums = inp.split(";");
+					}
+					// each number listed must be between 1 and num_sentences
+					for (var i = 0; i < nums.length; i++) {
+						var curr_num = Number(nums[i].trim());
+						if (!(curr_num >= 1 && curr_num <= num_sentences)) {
+							all_valid = false;
+						}
+					}
+				}
+			});
+			console.log("all valid: " + all_valid);
+			if (all_valid) {
+				$("#submit_button").prop("disabled", false);
+			} else {
+				$("#submit_button").prop("disabled", true);
+			}
+		}
+
+		function makeTextInput() {
+			return '\t<input type="text" class="user_input"></input>'
+		}
+
+		// Mechanical Turk will fill in '$ { varname }' variables when
+		// HTML template is rendered
+		function writeItems() {
+			const nice_slot_names = {
+				"incident_type": "Type",
+				"incident_location": "Location",
+				"incident_date": "Date",
+				"incident_stage_of_execution": "Stage of Completion",
+				"hum_tgt_name": "Named Victims",
+				"hum_tgt_description": "Other Victims",
+				"hum_tgt_effect_of_incident": "Effect of Incident on Victims",
+				"incident_instrument_id": "Weapons",
+				"perp_individual_id": "Individual Perpetrators",
+				// "perp_incident_category": "Incident Type", -- not annotating
+				"perp_organization_id": "Perpetrator Organization",
+				"perp_organization_confidence": "Evidence for Perpetrator Organization",
+				"phys_tgt_id": "Targeted Physical Infrastructure",
+				"phys_tgt_effect_of_incident": "Effect of Incident on Physical Infrastructure"
+			};
+
+			const set_fill_slots = new Set(["incident_stage_of_execution", "perp_incident_category"]);
+
+			var var_arrays = JSON.parse('${var_arrays}');
+
+			var task_html = '';
+			task_html += '<h2>Document</h2>';
+			task_html += '<div class="document_section"><ol>';
+			var sentences = var_arrays['sentences']
+
+			for (var j = 0; j < sentences.length; j++) {
+				task_html += '<li>' + sentences[j]["text"].toLowerCase() + '</li>';
+			}
+			task_html += '</ol></div>'
+			var template = var_arrays['template']
+			task_html += '<h2>Template</h2>';
+			task_html += '<div class="template_section">';
+			task_html += '<div class="slot_section"><b>Trigger</b>: ' + makeTextInput() + '</div>';
+			for (const [orig_slot_name, nice_slot_name] of Object.entries(nice_slot_names)) {
+				var slot_data = template[orig_slot_name];
+				if (orig_slot_name == "incident_type") {
+					task_html += '<div class="slot_section"><b>' + nice_slot_name + '</b>: ' + slot_data + '</div>';
+				} else if (slot_data == null) {
+					continue;
+				} else if (set_fill_slots.has(orig_slot_name)) {
+					task_html += '<div class="slot_section"><b>' + nice_slot_name + '</b>: ' + slot_data["strings"][0] + '</div>';
+				} else {
+					task_html += '<div class="slot_section"><b>' + nice_slot_name + '</b><ul>';
+					for (const filler_data of slot_data) {
+						if ("strings" in filler_data) {
+							// arbitrarily select the first mention to represent the filler
+							// (we may want to do something different, like take the longest)
+							filler_strings = filler_data["strings"][0].toLowerCase();
+							task_html += '<li>' + filler_strings + '</li>';
+						} else {
+							filler_lhs_string = filler_data["strings_lhs"][0].toLowerCase();
+							filler_rhs_string = filler_data["strings_rhs"][0].toLowerCase();
+							task_html += '<li>' + filler_lhs_string + ': ' + filler_rhs_string + '</li>';
+						}
+					}
+					task_html += '</ul></div>';
+				}
+			}
+			task_html += '</div>';
+
+			document.getElementById("item").innerHTML = task_html;
+		}
+
+		// read when document is ready (like a "main" function)
+		$(document).ready(function () {
+			console.log("**** run ready function");
+			writeItems();
+		});
+
+
+	</script>
+
+	<!-- Panel-primary --><!-- End Instructions --><!-- Content Body -->
+	<section>
+		<input name="dummy" , type="hidden" />
+		<div id="hit">
+			<fieldset>
+				<div id="item">
+				</div>
+			</fieldset>
+
+			<div>
+				<p id="submit_descr">Please complete all fields.</p><input class="btn btn-primary btn-lg"
+					id="submit_button" type="submit" value="Submit" disabled=true />
+			</div>
+		</div>
+		<!-- hit-->
+	</section>
+	<!-- End Content Body --></div>
+</section>
+
+<!-- close container -->
+<style type="text/css">
+	fieldset {
+		padding: 10px;
+		background: #fbfbfb;
+		border-radius: 5px;
+		margin-bottom: 5px;
+	}
+</style>
