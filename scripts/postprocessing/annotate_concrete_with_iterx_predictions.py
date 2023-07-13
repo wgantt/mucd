@@ -75,7 +75,7 @@ def annotate_concrete(
                         Argument(role=slot, entityId=filler_entity_id)
                     )
             cement_doc.add_raw_situation(
-                situation_type="incident_type",
+                situation_type="EVENT_TEMPLATE",
                 situation_kind=template[
                     "incident_type"
                 ].upper(),  # template type is always capitalized for no particularly good reason
