@@ -1,3 +1,4 @@
-pytokenizations
+git+https://github.com/wanmok/cement.git@v0.2.0
 concrete
-git+https://github.com/wanmok/cement.git
+pytokenizations
+spacy
