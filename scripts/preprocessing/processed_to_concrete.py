@@ -53,13 +53,13 @@ def to_concrete(lowercase: bool):
         data = json.load(
             open(os.path.join(PROCESSED_DATA_ROOT, split, split + ".json"))
         )
-        output_subdir = "lowercase" if lowercase else "uppercase"
-        output_path = os.path.join(OUTPUT_DIR, output_subdir, split + '.zip')
+        output_type = "lowercase" if lowercase else "uppercase"
+        output_path = os.path.join(OUTPUT_DIR, output_type, split + '.zip')
         with CommunicationWriterZip(output_path) as writer:
             for doc_id, doc in tqdm(
-                data.items(), desc=f"Processing documents in split {split}"
+                data.items(), desc=f"Processing {output_type} documents in split {split}"
             ):
-                text = doc["text"].lower() if lowercase else doc["text"]
+                text = doc["text"].lower() if lowercase else doc["text"]  # original text is uppercase
                 all_tokens = []
                 # last item in list represents current section
                 input_sentences_by_section = [[]]
@@ -150,16 +150,12 @@ def to_concrete(lowercase: bool):
                                 )
                     cement_doc.add_raw_situation(
                         situation_type="EVENT_TEMPLATE",
-                        situation_kind=template["incident_type"],
+                        situation_kind=template["incident_type"].lower(),
                         arguments=template_fillers,
                     )
                 writer.write(cement_doc.comm)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--lowercase", action="store_true", help="whether to lowercase all MUC text"
-    )
-    args = parser.parse_args()
-    to_concrete(args.lowercase)
+    to_concrete(False)
+    to_concrete(True)

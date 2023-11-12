@@ -76,9 +76,7 @@ def annotate_concrete(
                     )
             cement_doc.add_raw_situation(
                 situation_type="EVENT_TEMPLATE",
-                situation_kind=template[
-                    "incident_type"
-                ].upper(),  # template type is always capitalized for no particularly good reason
+                situation_kind=template["incident_type"].lower(),
                 arguments=template_fillers,
             )
         validate_communication(cement_doc.comm)
