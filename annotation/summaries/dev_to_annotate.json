@@ -1,0 +1,1189 @@
+{
+  "TST1-MUC3-0001": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "ROBBERY",
+      "summary": ""
+    },
+    {
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 6,
+      "incident_type": "ARSON",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0002": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0004": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0006": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0011": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0016": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0018": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0019": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0022": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0024": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0026": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0027": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0030": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0035": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0036": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0037": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0038": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0039": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0040": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0044": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0045": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0046": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0048": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0049": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0050": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0053": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0056": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0059": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0061": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0062": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0065": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0068": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0069": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0071": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0072": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0073": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 5,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 6,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 7,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0074": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0075": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0076": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ROBBERY",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0080": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0081": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0082": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0083": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0087": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0089": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0090": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0092": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0093": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0099": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ARSON",
+      "summary": ""
+    }
+  ],
+  "TST1-MUC3-0100": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 6,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0001": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0002": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0003": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0004": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0007": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0008": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0010": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0011": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0012": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0013": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0015": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0017": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0018": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0019": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0020": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0021": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0022": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0023": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0024": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0025": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0026": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0027": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0028": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0031": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0032": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0033": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0034": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 4,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0036": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 5,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 6,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 7,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 8,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 9,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 10,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0039": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0040": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0042": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0044": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0046": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0048": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0049": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0050": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0051": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0053": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0054": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0055": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0056": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0057": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0059": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0061": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0063": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0064": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0067": [
+    {
+      "message_template": 1,
+      "incident_type": "FORCED WORK STOPPAGE",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0068": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0069": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0070": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0071": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0073": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0074": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ROBBERY",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0075": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0076": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0077": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0078": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0080": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ARSON",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0081": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0086": [
+    {
+      "message_template": 1,
+      "incident_type": "ATTACK",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0090": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0093": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING / ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0095": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0098": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    },
+    {
+      "message_template": 3,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0099": [
+    {
+      "message_template": 1,
+      "incident_type": "BOMBING",
+      "summary": ""
+    },
+    {
+      "message_template": 2,
+      "incident_type": "ATTACK",
+      "summary": ""
+    }
+  ],
+  "TST2-MUC4-0100": [
+    {
+      "message_template": 1,
+      "incident_type": "KIDNAPPING",
+      "summary": ""
+    }
+  ]
+}
